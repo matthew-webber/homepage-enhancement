@@ -1,63 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="./assets/styles/output.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,700;0,6..12,900;1,6..12,500&display=swap"
-            rel="stylesheet"
-        />
-    </head>
-    <body>
-        <main>
-            <!-- Notice of Data Incident banner -->
-            <div
-                class="items-center bg-[#D1E4FC] font-nunito-sans border text-musc-blue px-5 py-4 relative md:flex md:px-10 md:py-5 md:gap-5"
-                role="alert"
-            >
-                <span class="block leading-4 text-sm grow md:w-3/5 md:h-full">
-                    <strong class="font-bold">Notice of Data Incident:</strong>
-                    We are providing notice of recent incidents that may affect
-                    the privacy of some personal and/or medical information
-                    collected from MUSC Health locations.
-                </span>
-                <!-- Buttons wrapper -->
-                <div
-                    class="flex items-end justify-end w-full mt-5 gap-4 md:mt-0 md:w-2/5 md:items-center"
-                >
-                    <!-- Learn More button -->
-                    <button
-                        class="grow py-3 text-lg bg-white border-musc-blue border-[1px] rounded-lg text-musc-blue hover:text-white hover:bg-musc-blue transition duration-300 ease-in-out md:grow-0 md:py-1 md:w-auto md:px-6"
-                    >
-                        <a href="#">
-                            <span>Learn More</span>
-                        </a>
-                    </button>
-                    <!-- Circle-shaped X button to dismiss banner -->
-                    <button
-                        class="p-4 bg-white border-musc-blue border-[1px] rounded-full text-musc-blue"
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M6 18L18 6M6 6l12 12"
-                            />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </main>
-        <script src="./assets/scripts/main.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/styles/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,700;0,6..12,900;1,6..12,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="h-screen">
+      <!-- Notice of Data Incident banner -->
+      <div id="app"></div>
+      <!-- CTA Tile Wrapper -->
+      
+    </main>
+    <script type="module" src="./assets/scripts/main.js"></script>
+  </body>
 </html>
