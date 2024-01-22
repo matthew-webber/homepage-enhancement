@@ -49,11 +49,14 @@ export const ctaTiles = html`
                 fill="white"
               />
             </svg>
-            <p class="border-b-[1px] pb-2 text-sm">
+            <p class="border-b-[1px] font-bold pb-2">
               <span>Looking to schedule?</span>
             </p>
-            <a href="#">
-              <span class="block mb-2 font-black">
+            <a
+              class="flex flex-col gap-3 text-xl lg:flex-row lg:items-center lg:justify-between"
+              href="#"
+            >
+              <span class="block font-black lg:font-extrabold">
                 Schedule an
                 <span class="block">Appointment</span>
               </span>
@@ -95,9 +98,12 @@ export const ctaTiles = html`
               />
             </svg>
 
-            <p class="border-b-[1px] pb-2 text-sm">Search providers?</p>
-            <a href="#">
-              <span class="block mb-2 font-black" Doctor>
+            <p class="border-b-[1px] font-bold pb-2">Search providers?</p>
+            <a
+              class="flex flex-col gap-3 text-xl lg:flex-row lg:items-center lg:justify-between"
+              href="#"
+            >
+              <span class="block font-black lg:font-extrabold">
                 Find a
                 <span class="block">Doctor</span>
               </span>
@@ -119,7 +125,7 @@ export const ctaTiles = html`
           </div>
           <!-- Find a Location -->
           <div
-            class="flex flex-col gap-2 w-1/2 p-5 bg-[#6E6574] text-white fill-white lg:gap-5"
+            class="flex flex-col gap-3 w-1/2 p-5 bg-[#6E6574] text-white fill-white lg:gap-5"
           >
             <!-- Location Pin -->
             <svg
@@ -138,11 +144,14 @@ export const ctaTiles = html`
                 stroke-linejoin="round"
               />
             </svg>
-            <p class="border-b-[1px] pb-2 text-sm">
+            <p class="border-b-[1px] font-bold pb-2">
               <span>Get directions?</span>
             </p>
-            <a href="#">
-              <span class="block mb-2 font-black">
+            <a
+              class="flex flex-col gap-3 text-xl lg:flex-row lg:items-center lg:justify-between"
+              href="#"
+            >
+              <span class="block font-black">
                 Find a
                 <span class="block">Location</span>
               </span>
@@ -164,7 +173,7 @@ export const ctaTiles = html`
           </div>
           <!-- Get Care Now -->
           <div
-            class="flex flex-col gap-2 w-1/2 p-5 bg-[#759340] text-white fill-white lg:gap-5"
+            class="flex flex-col gap-3 w-1/2 p-5 bg-[#759340] text-white fill-white lg:gap-5"
           >
             <!-- Heart -->
             <svg
@@ -184,11 +193,14 @@ export const ctaTiles = html`
               />
             </svg>
 
-            <p class="border-b-[1px] pb-2 text-sm">
-              <span>In need of urgent care?</span>
+            <p class="border-b-[1px] font-bold pb-2">
+              <span>Need urgent care?</span>
             </p>
-            <a href="#">
-              <span class="block mb-2 font-black">
+            <a
+              class="flex flex-col gap-3 text-xl lg:flex-row lg:items-center lg:justify-between"
+              href="#"
+            >
+              <span class="block font-black">
                 Get Care
                 <span class="block">Now</span>
               </span>

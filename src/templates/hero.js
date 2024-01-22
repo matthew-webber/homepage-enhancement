@@ -2,7 +2,7 @@ import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const hero = html`
   <div
-    class="flex flex-col-reverse bg-[#f5f5f5] md:flex-row md:min-h-64 lg:min-h-96"
+    class="flex flex-col-reverse bg-[#f5f5f5] md:flex-row md:min-h-64 lg:h-96"
   >
     <!-- Text -->
     <div
@@ -14,10 +14,19 @@ export const hero = html`
       </h1>
     </div>
     <!-- Image -->
-    <div class="w-full bg-[#d5d5d5] md:w-1/2">
+    <div
+      class="w-full bg-[#d4d4d4] md:w-1/2 lg:flex lg:justify-center 2xl:justify-start 2xl:pl-24"
+    >
+      <!-- Small, Medium Hero -->
       <img
-        class="object-cover w-full h-full md:object-none lg:px-36 lg:object-contain"
+        class="object-cover w-full h-52 md:object-none md:hidden lg:object-cover lg:justify-self-center lg:w-auto"
         src="./assets/images/hero.png"
+        alt="MUSC Health COVID-19 Vaccine Information"
+      />
+      <!-- Large Hero -->
+      <img
+        class="hidden object-cover w-full h-52 md:object-none md:h-auto md:flex lg:object-cover lg:justify-self-center lg:w-auto lg:h-auto"
+        src="./assets/images/hero-lg.png"
         alt="MUSC Health COVID-19 Vaccine Information"
       />
     </div>
