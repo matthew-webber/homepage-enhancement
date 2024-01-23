@@ -6,7 +6,7 @@ export const hero = html`
   >
     <!-- Text -->
     <div
-      class="flex items-center w-full p-5 md:pr-12 md:pl-10 md:w-1/2 lg:items-start lg:justify-end lg:pt-20 lg:pr-12 lg:pb-0 lg:pl-0"
+      class="flex items-center w-full p-5 md:pr-12 md:pl-10 md:w-1/2 lg:items-start lg:justify-end lg:pt-[88px] lg:pr-12 lg:pb-0 lg:pl-0"
     >
       <h1 class="text-musc-blue w-full md:w-96">
         <span
@@ -22,19 +22,11 @@ export const hero = html`
       </h1>
     </div>
     <!-- Image -->
-    <div
-      class="w-full bg-[#d4d4d4] md:w-1/2 lg:flex lg:justify-center 2xl:justify-start 2xl:pl-24"
-    >
-      <!-- Small, Medium Hero -->
-      <img
-        class="object-cover w-full h-52 md:object-none md:hidden lg:object-cover lg:justify-self-center lg:w-auto"
-        src="./assets/images/hero.png"
-        alt="MUSC Health COVID-19 Vaccine Information"
-      />
+    <div class="max-w-[900px] md:w-1/2">
       <!-- Large Hero -->
       <img
-        class="hidden object-cover w-full h-52 md:object-none md:h-auto md:flex lg:object-cover lg:justify-self-center lg:w-auto lg:h-auto"
-        src="./assets/images/hero-lg.png"
+        class="object-cover w-full h-52 md:h-auto lg:object-cover lg:h-full"
+        src="./assets/images/hero-hq.jpg"
         alt="MUSC Health COVID-19 Vaccine Information"
       />
     </div>
