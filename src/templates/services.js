@@ -9,13 +9,13 @@ export const services = html`
         Best-in-class Services
       </h2>
       <div class="flex w-full md:gap-10 lg:gap-12">
-        <!-- links -->
+        <!-- Services -->
         <div class="flex flex-col w-full md:w-1/2">
           <a
             href="#"
             class="flex justify-between items-center pb-6 border-b-[1px] border-[#699FBA]"
           >
-            <!-- text -->
+            <!-- Service Info -->
             <div class="flex flex-col text-musc-blue">
               <h3
                 class="text-lg font-black text-musc-blue lg:font-extrabold lg:text-2xl"
@@ -27,7 +27,7 @@ export const services = html`
               </p>
               <p class="text-musc-blue italic">US News & World Report</p>
             </div>
-            <!-- solid SVG triangle pointing right -->
+            <!-- Right Arrow -->
             <div class="pl-5">
               <svg
                 width="15"
@@ -47,7 +47,7 @@ export const services = html`
             href="#"
             class="flex justify-between items-center py-6 border-b-[1px] border-[#699FBA]"
           >
-            <!-- text -->
+            <!-- Service Info -->
             <div class="flex flex-col">
               <h3
                 class="text-lg font-black text-musc-blue lg:font-extrabold lg:text-2xl"
@@ -59,7 +59,7 @@ export const services = html`
               </p>
               <p class="text-musc-blue italic">US News & World Report</p>
             </div>
-            <!-- solid SVG triangle pointing right -->
+            <!-- Right Arrow -->
             <div class="pl-5">
               <svg
                 width="15"
@@ -79,7 +79,7 @@ export const services = html`
             href="#"
             class="flex justify-between items-center py-6 border-b-[1px] border-[#699FBA]"
           >
-            <!-- text -->
+            <!-- Service Info -->
             <div class="flex flex-col">
               <h3
                 class="text-lg font-black text-musc-blue lg:font-extrabold lg:text-2xl"
@@ -89,7 +89,7 @@ export const services = html`
               <p class="text-musc-blue">#23 in the Nation</p>
               <p class="text-musc-blue italic">US News & World Report</p>
             </div>
-            <!-- solid SVG triangle pointing right -->
+            <!-- Right Arrow -->
             <div class="pl-5">
               <svg
                 width="15"
@@ -109,7 +109,7 @@ export const services = html`
             href="#"
             class="flex justify-between items-center py-6 border-b-[1px] border-[#699FBA]"
           >
-            <!-- text -->
+            <!-- Service Info -->
             <div class="flex flex-col">
               <h3
                 class="text-lg font-black text-musc-blue lg:font-extrabold lg:text-2xl"
@@ -119,7 +119,7 @@ export const services = html`
               <p class="text-musc-blue">#9 in the Southeast Region</p>
               <p class="text-musc-blue italic">US News & World Report</p>
             </div>
-            <!-- solid SVG triangle pointing right -->
+            <!-- Right Arrow -->
             <div class="pl-5">
               <svg
                 width="15"
@@ -136,15 +136,15 @@ export const services = html`
             </div>
           </a>
         </div>
-        <!-- image -->
+        <!-- Image -->
         <div class="w-0 md:w-1/2">
           <img
             class="object-cover w-full md:h-full md:object-cover md:flex lg:object-cover lg:justify-self-center lg:w-auto lg:h-full"
-            src="./assets/images/services.png"
+            src="./assets/images/services-hq.jpg"
             alt="MUSC Health COVID-19 Vaccine Information"
           />
         </div>
-        <!-- View all Services button -->
+        <!-- Button -->
       </div>
       <div class="flex font-arial mt-10 w-full md:w-auto lg:mt-12">
         <a
