@@ -6,11 +6,19 @@ export const hero = html`
   >
     <!-- Text -->
     <div
-      class="flex items-center w-full px-5 py-5 md:px-10 md:py-10 md:w-1/2 lg:items-start lg:justify-end lg:pt-20 lg:pr-11 lg:pb-0 lg:pl-0"
+      class="flex items-center w-full p-5 md:pr-12 md:pl-10 md:w-1/2 lg:items-start lg:justify-end lg:pt-20 lg:pr-12 lg:pb-0 lg:pl-0"
     >
-      <h1 class="text-musc-blue w-96">
-        <span class="block font-black text-4xl">MUSC Health</span>
-        <span class="block text-4xl/[40px]">Changing What's Possible</span>
+      <h1 class="text-musc-blue w-full md:w-96">
+        <span
+          class="block text-[26px]/[28px] font-black md:text-[32px]/[38px] lg:text-4xl"
+        >
+          MUSC Health
+        </span>
+        <span
+          class="block text-3xl md:text-[36px]/[38px] lg:text-[40px]/[44px]"
+        >
+          Changing What's Possible
+        </span>
       </h1>
     </div>
     <!-- Image -->
