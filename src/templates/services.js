@@ -3,7 +3,9 @@ import { html } from '../node_modules/lit-html/lit-html.js';
 export const services = html`
   <div class="max-w-5xl mx-auto py-10 px-5 md:p-10 lg:px-0 lg:py-20">
     <div class="w-full bg-white flex flex-col">
-      <h2 class="mb-10 text-4xl font-bold text-musc-blue md:mb-8">
+      <h2
+        class="mb-10 text-[26px]/[28px] md:text-4xl font-bold text-musc-blue md:mb-8"
+      >
         Best-in-class Services
       </h2>
       <div class="flex w-full md:gap-10 lg:gap-12">
@@ -144,7 +146,7 @@ export const services = html`
         </div>
         <!-- View all Services button -->
       </div>
-      <div class="h-12 mt-10 w-full md:w-44 lg:mt-12">
+      <div class="font-arial h-12 mt-10 w-full md:w-44 lg:mt-12">
         <a
           href="#"
           class="flex items-center justify-center h-full font-bold text-white bg-musc-blue rounded-xl hover:bg-[#699FBA]"
