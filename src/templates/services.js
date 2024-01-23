@@ -146,10 +146,10 @@ export const services = html`
         </div>
         <!-- View all Services button -->
       </div>
-      <div class="font-arial h-12 mt-10 w-full md:w-44 lg:mt-12">
+      <div class="flex font-arial mt-10 w-full md:w-auto lg:mt-12">
         <a
           href="#"
-          class="flex items-center justify-center h-full font-bold text-white bg-musc-blue rounded-xl hover:bg-[#699FBA]"
+          class="grow text-center py-3 px-5 h-full font-bold text-white bg-musc-blue rounded-lg hover:bg-[#699FBA] transition ease-in-out duration-150 hover:shadow-md hover:shadow-musc-blue md:grow-0"
         >
           View all Services
         </a>
