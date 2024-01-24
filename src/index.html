@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./assets/styles/output.css" rel="stylesheet" />
+    <link href="./assets/styles/tailwind.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,9 +16,29 @@
     <main class="font-nunito-sans h-screen">
       <!-- Notice of Data Incident banner -->
       <div id="app"></div>
-      <div class="bg-musc-blue w-full h-96 mt-10"</div>
-      <!-- CTA Tile Wrapper -->
+      <div class="bg-musc-blue w-full h-96 mt-10"></div>
     </main>
     <script type="module" src="./assets/scripts/main.js"></script>
+    <script>
+      const addDismissListener = () => {
+        const dataIncidentBannerDismissButton = document.querySelector(
+          '#dismiss-data-incident-banner'
+        );
+
+        dataIncidentBannerDismissButton.addEventListener('click', () => {
+          const dataIncidentBanner = document.querySelector(
+            '#data-incident-banner'
+          );
+          dataIncidentBanner.attributes['aria-hidden'].value = 'true';
+        });
+      };
+      if (document.readyState === 'complete') {
+        addDismissListener();
+      } else {
+        window.addEventListener('load', () => {
+          addDismissListener();
+        });
+      }
+    </script>
   </body>
 </html>

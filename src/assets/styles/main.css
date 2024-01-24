@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#data-incident-banner[aria-hidden='true'] {
+  grid-template-rows: 0fr;
+}
+
+#data-incident-banner {
+  transition: all 50ms;
+  grid-template-rows: 1fr;
+  display: grid;
+}
+
+#data-incident-banner > div {
+  overflow: hidden;
+}
