@@ -9,7 +9,7 @@ import { placeholderAdvanceStories } from '../../templates/placeholderAdvanceSto
 import { services } from '../../templates/services.js';
 
 const app = html`
-  ${dataIncidentBanner} ${navbar} ${hero} ${ctaTiles} ${services} ${dna}
+  ${navbar} ${hero} ${ctaTiles} ${dataIncidentBanner} ${services} ${dna}
   ${advanceHeading} ${placeholderAdvanceStories}
 `;
 

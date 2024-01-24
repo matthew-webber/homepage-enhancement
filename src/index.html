@@ -21,22 +21,33 @@
     <script type="module" src="./assets/scripts/main.js"></script>
     <script>
       const addDismissListener = () => {
+        const dataIncidentBanner = document.querySelector(
+          '#data-incident-banner'
+        );
         const dataIncidentBannerDismissButton = document.querySelector(
           '#dismiss-data-incident-banner'
         );
 
         dataIncidentBannerDismissButton.addEventListener('click', () => {
-          const dataIncidentBanner = document.querySelector(
-            '#data-incident-banner'
-          );
           dataIncidentBanner.attributes['aria-hidden'].value = 'true';
         });
       };
+
+      const showAndMoveToTop = () => {
+        const dataIncidentBanner = document.querySelector(
+          '#data-incident-banner'
+        );
+        document.body.insertAdjacentElement('afterbegin', dataIncidentBanner);
+        dataIncidentBanner.style.display = 'grid';
+      };
+
       if (document.readyState === 'complete') {
         addDismissListener();
+        showAndMoveToTop();
       } else {
         window.addEventListener('load', () => {
           addDismissListener();
+          showAndMoveToTop();
         });
       }
     </script>

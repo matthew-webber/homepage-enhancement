@@ -9,7 +9,7 @@
 #data-incident-banner {
   transition: all 50ms;
   grid-template-rows: 1fr;
-  display: grid;
+  display: none;
 }
 
 #data-incident-banner > div {
