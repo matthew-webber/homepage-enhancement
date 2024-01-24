@@ -25,7 +25,7 @@ export const hero = html`
     <div class="max-w-[900px] md:w-1/2">
       <!-- Hero -->
       <img
-        class="object-cover w-full h-52 md:h-auto lg:object-cover lg:h-full"
+        class="object-cover w-full h-52 md:h-full lg:object-cover"
         src="./assets/images/hero-hq.jpg"
         alt="MUSC Health COVID-19 Vaccine Information"
       />
