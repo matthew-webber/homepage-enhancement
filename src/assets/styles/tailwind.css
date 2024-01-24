@@ -805,6 +805,10 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-\[\#699FBA\] {
   --tw-border-opacity: 1;
   border-color: rgb(105 159 186 / var(--tw-border-opacity));

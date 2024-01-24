@@ -47,7 +47,7 @@ export const ctaTiles = html`
               fill="white"
             />
           </svg>
-          <p class="border-b-[1px] font-bold pb-2">
+          <p class="border-b font-bold pb-2">
             <span>Looking to schedule?</span>
           </p>
         </div>
@@ -97,7 +97,7 @@ export const ctaTiles = html`
             />
           </svg>
 
-          <p class="border-b-[1px] font-bold pb-2">Search providers?</p>
+          <p class="border-b font-bold pb-2">Search providers?</p>
         </div>
         <a
           class="flex flex-col gap-[10px] text-lg leading-5 lg:flex-row lg:items-center lg:justify-between"
@@ -144,7 +144,7 @@ export const ctaTiles = html`
               stroke-linejoin="round"
             />
           </svg>
-          <p class="border-b-[1px] font-bold pb-2">
+          <p class="border-b font-bold pb-2">
             <span>Get directions?</span>
           </p>
         </div>
@@ -194,7 +194,7 @@ export const ctaTiles = html`
             />
           </svg>
 
-          <p class="border-b-[1px] font-bold pb-2">
+          <p class="border-b font-bold pb-2">
             <span>In need of urgent care?</span>
           </p>
         </div>

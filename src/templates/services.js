@@ -14,7 +14,7 @@ export const services = html`
           <div class="flex flex-col w-full md:w-1/2">
             <a
               href="#"
-              class="flex justify-between items-center pb-6 border-b-[1px] border-[#699FBA]"
+              class="flex justify-between items-center pb-6 border-b border-[#699FBA]"
             >
               <!-- Service Info -->
               <div class="flex flex-col text-musc-blue">
@@ -46,7 +46,7 @@ export const services = html`
             </a>
             <a
               href="#"
-              class="flex justify-between items-center py-6 border-b-[1px] border-[#699FBA]"
+              class="flex justify-between items-center py-6 border-b border-[#699FBA]"
             >
               <!-- Service Info -->
               <div class="flex flex-col">
@@ -78,7 +78,7 @@ export const services = html`
             </a>
             <a
               href="#"
-              class="flex justify-between items-center py-6 border-b-[1px] border-[#699FBA]"
+              class="flex justify-between items-center py-6 border-b border-[#699FBA]"
             >
               <!-- Service Info -->
               <div class="flex flex-col">
@@ -108,7 +108,7 @@ export const services = html`
             </a>
             <a
               href="#"
-              class="flex justify-between items-center py-6 border-b-[1px] border-[#699FBA]"
+              class="flex justify-between items-center py-6 border-b border-[#699FBA]"
             >
               <!-- Service Info -->
               <div class="flex flex-col">
