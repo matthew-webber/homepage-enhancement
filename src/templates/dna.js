@@ -25,14 +25,28 @@ export const dna = html`
           research discoveries for our community.
         </p>
         <!-- Button -->
-        <div class="flex mt-5">
+        <button class="flex mt-5">
           <a
             href="#"
-            class="py-3 grow px-5 font-arial font-bold text-center text-white bg-musc-blue rounded-lg hover:bg-[#699FBA] transition ease-in-out duration-150 hover:shadow-md hover:shadow-musc-blue md:grow-0"
+            class="hover-arrow py-3 grow px-5 font-arial font-bold text-center text-white bg-musc-blue rounded-lg md:grow-0"
           >
             Learn More
           </a>
-        </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="flex-shrink-0 w-0 h-6 transition-all duration-150 ease-in-out"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </button>
       </div>
     </div>
   </div>
