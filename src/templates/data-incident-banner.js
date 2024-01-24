@@ -26,7 +26,7 @@ export const dataIncidentBanner = html`
                 <span>Learn More</span>
               </a>
             </button>
-            <!-- Circle-shaped X button to dismiss banner -->
+            <!-- Dismiss button -->
             <button
               id="dismiss-data-incident-banner"
               class="p-3 w-auto bg-white border-musc-blue border rounded-full text-musc-blue"

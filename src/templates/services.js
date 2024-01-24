@@ -28,7 +28,7 @@ export const services = html`
                 </p>
                 <p class="text-musc-blue italic">US News & World Report</p>
               </div>
-              <!-- Right Arrow -->
+              <!-- Arrow -->
               <div class="pl-5">
                 <svg
                   width="15"
@@ -60,7 +60,7 @@ export const services = html`
                 </p>
                 <p class="text-musc-blue italic">US News & World Report</p>
               </div>
-              <!-- Right Arrow -->
+              <!-- Arrow -->
               <div class="pl-5">
                 <svg
                   width="15"
@@ -90,7 +90,7 @@ export const services = html`
                 <p class="text-musc-blue">#23 in the Nation</p>
                 <p class="text-musc-blue italic">US News & World Report</p>
               </div>
-              <!-- Right Arrow -->
+              <!-- Arrow -->
               <div class="pl-5">
                 <svg
                   width="15"
@@ -120,7 +120,7 @@ export const services = html`
                 <p class="text-musc-blue">#9 in the Southeast Region</p>
                 <p class="text-musc-blue italic">US News & World Report</p>
               </div>
-              <!-- Right Arrow -->
+              <!-- Arrow -->
               <div class="pl-5">
                 <svg
                   width="15"
@@ -145,7 +145,6 @@ export const services = html`
               alt="MUSC Health COVID-19 Vaccine Information"
             />
           </div>
-          <!-- Button -->
         </div>
         <button class="flex font-arial mt-10 w-full md:w-auto lg:mt-12">
           <a

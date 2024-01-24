@@ -5,7 +5,7 @@ export const navbar = html`
     <div
       class="flex justify-end items-center max-w-5xl mx-auto px-5 py-4 md:px-10 md:py-5 md:gap-5"
     >
-      <!-- Right-side navbar links -->
+      <!-- Desktop nav links -->
       <div
         class="hidden gap-10 font-nunito-sans uppercase text-white text-xs lg:flex"
       >
@@ -22,7 +22,7 @@ export const navbar = html`
           <span>Visit Other MUSC Sites</span>
         </a>
       </div>
-      <!-- Menu Icon for md and smaller -->
+      <!-- Mobile menu icon -->
       <div class="flex lg:hidden">
         <button
           class="p-3 w-auto bg-white border-musc-blue border rounded-full text-musc-blue"

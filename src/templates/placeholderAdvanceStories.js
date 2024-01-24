@@ -3,7 +3,7 @@ import { html } from '../node_modules/lit-html/lit-html.js';
 export const placeholderAdvanceStories = html`
   <div class="lg:flex lg:justify-center">
     <div class="max-w-5xl w-full px-5 md:px-10 lg:px-0 lg:mx-12">
-      <!-- a 2x2 grid with 40px between cells -->
+      <!-- Container -->
       <div
         class="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-10 lg:grid-cols-3"
       >

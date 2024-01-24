@@ -1,7 +1,6 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const dna = html`
-  <!-- two full width containers, the one on the left containing an image, and the second containing a heading, some body copy, and a learn more button -->
   <div class="flex flex-col lg:h-96 lg:flex-row">
     <!-- NOTE: object flipping horizontally requires reversal of object-position -->
     <img

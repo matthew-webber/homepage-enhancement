@@ -23,7 +23,7 @@ export const hero = html`
     </div>
     <!-- Image -->
     <div class="max-w-[900px] md:w-1/2">
-      <!-- Large Hero -->
+      <!-- Hero -->
       <img
         class="object-cover w-full h-52 md:h-auto lg:object-cover lg:h-full"
         src="./assets/images/hero-hq.jpg"
