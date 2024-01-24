@@ -2,7 +2,7 @@ import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const hero = html`
   <div
-    class="flex flex-col-reverse bg-[#f5f5f5] md:flex-row md:min-h-64 lg:h-96"
+    class="font-nunito-sans flex flex-col-reverse bg-[#f5f5f5] md:flex-row md:min-h-64 lg:h-96"
   >
     <!-- Text -->
     <div

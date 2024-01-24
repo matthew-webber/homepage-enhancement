@@ -1,7 +1,9 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const ctaTiles = html`
-  <div class="max-w-5xl mx-auto lg:-translate-y-20 lg:-mb-20">
+  <div
+    class="font-nunito-sans max-w-[1000px] mx-auto lg:-translate-y-20 lg:-mb-20"
+  >
     <div class="flex flex-wrap md:flex-nowrap">
       <!-- Scheduling -->
       <div
@@ -47,7 +49,7 @@ export const ctaTiles = html`
               fill="white"
             />
           </svg>
-          <p class="border-b font-bold pb-2">
+          <p class="border-b border-solid border-white font-bold pb-2">
             <span>Looking to schedule?</span>
           </p>
         </div>
@@ -97,7 +99,9 @@ export const ctaTiles = html`
             />
           </svg>
 
-          <p class="border-b font-bold pb-2">Search providers?</p>
+          <p class="border-b border-solid border-white font-bold pb-2">
+            Search providers?
+          </p>
         </div>
         <a
           class="flex flex-col gap-[10px] text-lg leading-5 lg:flex-row lg:items-center lg:justify-between"
@@ -144,7 +148,7 @@ export const ctaTiles = html`
               stroke-linejoin="round"
             />
           </svg>
-          <p class="border-b font-bold pb-2">
+          <p class="border-b border-solid border-white font-bold pb-2">
             <span>Get directions?</span>
           </p>
         </div>
@@ -194,7 +198,7 @@ export const ctaTiles = html`
             />
           </svg>
 
-          <p class="border-b font-bold pb-2">
+          <p class="border-b border-solid border-white font-bold pb-2">
             <span>In need of urgent care?</span>
           </p>
         </div>

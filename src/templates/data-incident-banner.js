@@ -1,11 +1,11 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const dataIncidentBanner = html`
-  <div id="data-incident-banner" aria-hidden="false">
+  <div id="data-incident-banner" aria-hidden="false" class="font-nunito-sans">
     <div>
       <div class="w-full flex justify-center bg-[#D1E4FC]">
         <div
-          class="items-center font-nunito-sans text-musc-blue mx-5 py-4 max-w-5xl md:flex md:mx-10 md:py-5 md:gap-5 md:justify-center"
+          class="items-center text-musc-blue mx-5 py-4 max-w-[1000px] md:flex md:mx-10 md:py-5 md:gap-5 md:justify-center"
           role="alert"
         >
           <span class="block leading-4 text-sm grow">
@@ -20,7 +20,7 @@ export const dataIncidentBanner = html`
           >
             <!-- Learn More button -->
             <button
-              class="grow py-2 bg-white border-musc-blue border rounded-lg text-musc-blue hover:text-white hover:bg-musc-blue transition duration-300 ease-in-out md:grow-0 md:w-auto md:px-6"
+              class="grow py-2 bg-white border-musc-blue border border-solid rounded-lg text-musc-blue hover:text-white hover:bg-musc-blue transition duration-300 ease-in-out md:grow-0 md:w-auto md:px-6"
             >
               <a href="#">
                 <span>Learn More</span>
@@ -29,7 +29,7 @@ export const dataIncidentBanner = html`
             <!-- Dismiss button -->
             <button
               id="dismiss-data-incident-banner"
-              class="p-3 w-auto bg-white border-musc-blue border rounded-full text-musc-blue"
+              class="p-3 w-auto bg-white border-musc-blue border border-solid rounded-full text-musc-blue"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

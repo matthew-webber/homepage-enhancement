@@ -1,7 +1,7 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const dna = html`
-  <div class="flex flex-col lg:h-96 lg:flex-row">
+  <div class="font-nunito-sans flex flex-col lg:h-96 lg:flex-row">
     <!-- NOTE: object flipping horizontally requires reversal of object-position -->
     <img
       class="-scale-x-100 object-left object-cover w-full h-64 md:h-auto md:flex lg:w-1/2"
@@ -23,28 +23,27 @@ export const dna = html`
           help improve access to personalized health care and support new
           research discoveries for our community.
         </p>
-        <!-- Button -->
-        <button class="flex mt-5">
+        <button class="flex font-arial w-full mt-5 md:w-auto">
           <a
             href="#"
-            class="hover-arrow py-3 grow px-5 font-arial font-bold text-center text-white bg-musc-blue rounded-lg md:grow-0"
+            class="hover-arrow flex justify-center overflow-hidden gap-2 grow py-3 px-5 h-full font-bold text-white bg-musc-blue rounded-lg md:grow-0"
           >
             Learn More
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="flex-shrink-0 w-0 h-6 transition-all duration-150 ease-in-out"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
+            </svg>
           </a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="flex-shrink-0 w-0 h-6 transition-all duration-150 ease-in-out"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-            />
-          </svg>
         </button>
       </div>
     </div>

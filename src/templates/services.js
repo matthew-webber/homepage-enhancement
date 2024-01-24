@@ -1,8 +1,8 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const services = html`
-  <div class="w-full lg:flex lg:justify-center">
-    <div class="max-w-5xl py-10 px-5 md:p-10 lg:py-20 lg:px-0 lg:mx-12">
+  <div class="font-nunito-sans w-full lg:flex lg:justify-center">
+    <div class="max-w-[1000px] py-10 px-5 md:p-10 lg:py-20 lg:px-0 lg:mx-12">
       <div class="w-full bg-white flex flex-col">
         <h2
           class="mb-10 text-[26px]/[28px] md:text-4xl font-bold text-musc-blue md:mb-8"
@@ -14,7 +14,7 @@ export const services = html`
           <div class="flex flex-col w-full md:w-1/2">
             <a
               href="#"
-              class="flex justify-between items-center pb-6 border-b border-[#699FBA]"
+              class="flex justify-between items-center pb-6 border-b border-[#699FBA] border-solid"
             >
               <!-- Service Info -->
               <div class="flex flex-col text-musc-blue">
@@ -46,7 +46,7 @@ export const services = html`
             </a>
             <a
               href="#"
-              class="flex justify-between items-center py-6 border-b border-[#699FBA]"
+              class="flex justify-between items-center py-6 border-b border-[#699FBA] border-solid"
             >
               <!-- Service Info -->
               <div class="flex flex-col">
@@ -78,7 +78,7 @@ export const services = html`
             </a>
             <a
               href="#"
-              class="flex justify-between items-center py-6 border-b border-[#699FBA]"
+              class="flex justify-between items-center py-6 border-b border-[#699FBA] border-solid"
             >
               <!-- Service Info -->
               <div class="flex flex-col">
@@ -108,7 +108,7 @@ export const services = html`
             </a>
             <a
               href="#"
-              class="flex justify-between items-center py-6 border-b border-[#699FBA]"
+              class="flex justify-between items-center py-6 border-b border-[#699FBA] border-solid"
             >
               <!-- Service Info -->
               <div class="flex flex-col">
@@ -149,7 +149,7 @@ export const services = html`
         <button class="flex font-arial mt-10 w-full md:w-auto lg:mt-12">
           <a
             href="#"
-            class="hover-arrow flex overflow-hidden gap-2 grow text-center py-3 px-5 h-full font-bold text-white bg-musc-blue rounded-lg md:grow-0"
+            class="hover-arrow flex justify-center overflow-hidden gap-2 grow py-3 px-5 h-full font-bold text-white bg-musc-blue rounded-lg md:grow-0"
           >
             View all Services
             <svg

@@ -1,8 +1,10 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const advanceHeading = html`
-  <div class="w-full lg:flex lg:justify-center">
-    <div class="max-w-5xl py-10 px-5 md:p-10 lg:pt-20 lg:px-0 lg:pb-7 lg:mx-12">
+  <div class="font-nunito-sans w-full lg:flex lg:justify-center">
+    <div
+      class="max-w-[1000px] py-10 px-5 md:p-10 lg:pt-20 lg:px-0 lg:pb-7 lg:mx-12"
+    >
       <div class="w-full">
         <h3
           class="text-[26px]/[28px] mb-2 font-bold text-musc-blue md:text-4xl lg:text-[40px]/[44px]"

@@ -3,7 +3,7 @@ import { html } from '../node_modules/lit-html/lit-html.js';
 export const navbar = html`
   <div class="w-full bg-musc-blue">
     <div
-      class="flex justify-end items-center max-w-5xl mx-auto px-5 py-4 md:px-10 md:py-5 md:gap-5"
+      class="flex justify-end items-center max-w-[1000px] mx-auto px-5 py-4 md:px-10 md:py-5 md:gap-5"
     >
       <!-- Desktop nav links -->
       <div
@@ -25,7 +25,7 @@ export const navbar = html`
       <!-- Mobile menu icon -->
       <div class="flex lg:hidden">
         <button
-          class="p-3 w-auto bg-white border-musc-blue border rounded-full text-musc-blue"
+          class="p-3 w-auto bg-white border-musc-blue border border-solid rounded-full text-musc-blue"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
