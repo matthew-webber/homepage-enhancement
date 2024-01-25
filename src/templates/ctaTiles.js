@@ -2,15 +2,17 @@ import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const ctaTiles = html`
   <div
-    class="font-nunito-sans max-w-[1000px] mx-auto lg:-translate-y-20 lg:-mb-20"
+    class="tw-font-nunito-sans tw-max-w-[1000px] tw-mx-auto lg:-tw-translate-y-20 lg:-tw-mb-20"
   >
-    <div class="flex flex-wrap md:flex-nowrap">
+    <div class="tw-flex tw-flex-wrap md:tw-flex-nowrap">
       <!-- Scheduling -->
       <div
-        class="flex flex-col justify-between gap-[10px] w-1/2 p-5 bg-musc-blue text-white fill-white lg:gap-5"
+        class="tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-musc-blue tw-text-white tw-fill-white lg:tw-gap-5"
       >
         <!-- Calendar -->
-        <div class="grow flex flex-col justify-between gap-[10px]">
+        <div
+          class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]"
+        >
           <svg
             width="43"
             height="42"
@@ -49,17 +51,19 @@ export const ctaTiles = html`
               fill="white"
             />
           </svg>
-          <p class="border-b border-solid border-white font-bold pb-2">
+          <p
+            class="tw-border-b tw-border-solid tw-border-white tw-font-bold tw-pb-2"
+          >
             <span>Looking to schedule?</span>
           </p>
         </div>
         <a
-          class="flex flex-col gap-[10px] text-lg leading-5 lg:flex-row lg:items-center lg:justify-between"
+          class="tw-flex tw-flex-col tw-gap-[10px] tw-text-lg tw-leading-5 lg:tw-flex-row lg:tw-items-center lg:tw-justify-between"
           href="#"
         >
-          <span class="block font-black lg:font-extrabold">
+          <span class="tw-block tw-font-black lg:tw-font-extrabold">
             Schedule an
-            <span class="block">Appointment</span>
+            <span class="tw-block">Appointment</span>
           </span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +71,7 @@ export const ctaTiles = html`
             viewBox="0 0 24 24"
             stroke-width="2"
             stroke="currentColor"
-            class="w-4 h-4"
+            class="tw-w-4 tw-h-4"
           >
             <path
               stroke-linecap="round"
@@ -79,10 +83,12 @@ export const ctaTiles = html`
       </div>
       <!-- Find a Doctor -->
       <div
-        class="flex flex-col justify-between gap-[10px] w-1/2 p-5 bg-[#3B90AD] text-white fill-white lg:gap-5"
+        class="tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-[#3B90AD] tw-text-white tw-fill-white lg:tw-gap-5"
       >
         <!-- Doctor -->
-        <div class="grow flex flex-col justify-between gap-[10px]">
+        <div
+          class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]"
+        >
           <svg
             width="35"
             height="44"
@@ -99,17 +105,19 @@ export const ctaTiles = html`
             />
           </svg>
 
-          <p class="border-b border-solid border-white font-bold pb-2">
+          <p
+            class="tw-border-b tw-border-solid tw-border-white tw-font-bold tw-pb-2"
+          >
             Search providers?
           </p>
         </div>
         <a
-          class="flex flex-col gap-[10px] text-lg leading-5 lg:flex-row lg:items-center lg:justify-between"
+          class="tw-flex tw-flex-col tw-gap-[10px] tw-text-lg tw-leading-5 lg:tw-flex-row lg:tw-items-center lg:tw-justify-between"
           href="#"
         >
-          <span class="block font-black lg:font-extrabold">
+          <span class="tw-block tw-font-black lg:tw-font-extrabold">
             Find a
-            <span class="block">Doctor</span>
+            <span class="tw-block">Doctor</span>
           </span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +125,7 @@ export const ctaTiles = html`
             viewBox="0 0 24 24"
             stroke-width="2"
             stroke="currentColor"
-            class="w-4 h-4"
+            class="tw-w-4 tw-h-4"
           >
             <path
               stroke-linecap="round"
@@ -129,10 +137,12 @@ export const ctaTiles = html`
       </div>
       <!-- Find a Location -->
       <div
-        class="flex flex-col justify-between gap-[10px] w-1/2 p-5 bg-[#6E6574] text-white fill-white lg:gap-5"
+        class="tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-[#6E6574] tw-text-white tw-fill-white lg:tw-gap-5"
       >
         <!-- Location Pin -->
-        <div class="grow flex flex-col justify-between gap-[10px]">
+        <div
+          class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]"
+        >
           <svg
             width="53"
             height="44"
@@ -148,17 +158,19 @@ export const ctaTiles = html`
               stroke-linejoin="round"
             />
           </svg>
-          <p class="border-b border-solid border-white font-bold pb-2">
+          <p
+            class="tw-border-b tw-border-solid tw-border-white tw-font-bold tw-pb-2"
+          >
             <span>Get directions?</span>
           </p>
         </div>
         <a
-          class="flex flex-col gap-[10px] text-lg leading-5 lg:flex-row lg:items-center lg:justify-between"
+          class="tw-flex tw-flex-col tw-gap-[10px] tw-text-lg tw-leading-5 lg:tw-flex-row lg:tw-items-center lg:tw-justify-between"
           href="#"
         >
-          <span class="block font-black">
+          <span class="tw-block tw-font-black">
             Find a
-            <span class="block">Location</span>
+            <span class="tw-block">Location</span>
           </span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -166,7 +178,7 @@ export const ctaTiles = html`
             viewBox="0 0 24 24"
             stroke-width="2"
             stroke="currentColor"
-            class="w-4 h-4"
+            class="tw-w-4 tw-h-4"
           >
             <path
               stroke-linecap="round"
@@ -178,10 +190,12 @@ export const ctaTiles = html`
       </div>
       <!-- Get Care Now -->
       <div
-        class="flex flex-col justify-between gap-[10px] w-1/2 p-5 bg-[#759340] text-white fill-white lg:gap-5"
+        class="tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-[#759340] tw-text-white tw-fill-white lg:tw-gap-5"
       >
         <!-- Heart -->
-        <div class="grow flex flex-col justify-between gap-[10px]">
+        <div
+          class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]"
+        >
           <svg
             width="53"
             height="44"
@@ -198,17 +212,19 @@ export const ctaTiles = html`
             />
           </svg>
 
-          <p class="border-b border-solid border-white font-bold pb-2">
+          <p
+            class="tw-border-b tw-border-solid tw-border-white tw-font-bold tw-pb-2"
+          >
             <span>In need of urgent care?</span>
           </p>
         </div>
         <a
-          class="flex flex-col gap-[10px] text-lg leading-5 lg:flex-row lg:items-center lg:justify-between"
+          class="tw-flex tw-flex-col tw-gap-[10px] tw-text-lg tw-leading-5 lg:tw-flex-row lg:tw-items-center lg:tw-justify-between"
           href="#"
         >
-          <span class="block font-black">
+          <span class="tw-block tw-font-black">
             Get Care
-            <span class="block">Now</span>
+            <span class="tw-block">Now</span>
           </span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -216,7 +232,7 @@ export const ctaTiles = html`
             viewBox="0 0 24 24"
             stroke-width="2"
             stroke="currentColor"
-            class="w-4 h-4"
+            class="tw-w-4 tw-h-4"
           >
             <path
               stroke-linecap="round"

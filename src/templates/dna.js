@@ -1,32 +1,34 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const dna = html`
-  <div class="font-nunito-sans flex flex-col lg:h-96 lg:flex-row">
+  <div
+    class="tw-font-nunito-sans tw-flex tw-flex-col lg:tw-h-96 lg:tw-flex-row"
+  >
     <!-- NOTE: object flipping horizontally requires reversal of object-position -->
     <img
-      class="-scale-x-100 object-left object-cover w-full h-64 md:h-auto md:flex lg:w-1/2"
+      class="-tw-scale-x-100 tw-object-left tw-object-cover tw-w-full tw-h-64 md:tw-h-auto md:tw-flex lg:tw-w-1/2"
       src="./assets/images/dna-hq.jpg"
       alt="MUSC Health COVID-19 Vaccine Information"
     />
-    <div class="bg-[#f5f5f5] lg:w-1/2">
+    <div class="tw-bg-[#f5f5f5] lg:tw-w-1/2">
       <div
-        class="px-5 py-10 h-full w-full bg-transparent md:p-10 lg:flex lg:flex-col lg:justify-center lg:w-[500px]"
+        class="tw-px-5 tw-py-10 tw-h-full tw-w-full tw-bg-transparent md:tw-p-10 lg:tw-flex lg:tw-flex-col lg:tw-justify-center lg:tw-w-[500px]"
       >
         <h3
-          class="text-[22px]/[28px] mb-3 font-black text-musc-blue md:text-[32px]/[38px] lg:font-extrabold lg:text-4xl"
+          class="tw-text-[22px]/[28px] tw-mb-3 tw-font-black tw-text-musc-blue md:tw-text-[32px]/[38px] lg:tw-font-extrabold lg:tw-text-4xl"
         >
           In Our DNA SC
         </h3>
-        <p class="text-musc-blue">
+        <p class="tw-text-musc-blue">
           In Our DNA SC is a community health research project launched by MUSC.
           The project looks at how your DNA affects your health. It may also
           help improve access to personalized health care and support new
           research discoveries for our community.
         </p>
-        <button class="flex font-arial w-full mt-5 md:w-auto">
+        <button class="tw-flex tw-font-arial tw-w-full tw-mt-5 md:tw-w-auto">
           <a
             href="#"
-            class="hover-arrow flex justify-center overflow-hidden gap-2 grow py-3 px-5 h-full font-bold text-white bg-musc-blue rounded-lg md:grow-0"
+            class="hover-arrow tw-flex tw-justify-center tw-overflow-hidden tw-gap-2 tw-grow tw-py-3 tw-px-5 tw-h-full tw-font-bold tw-text-white tw-bg-musc-blue tw-rounded-lg md:tw-grow-0"
           >
             Learn More
             <svg
@@ -35,7 +37,7 @@ export const dna = html`
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="flex-shrink-0 w-0 h-6 transition-all duration-150 ease-in-out"
+              class="tw-flex-shrink-0 tw-w-0 tw-h-6 tw-transition-all tw-duration-150 tw-ease-in-out"
             >
               <path
                 stroke-linecap="round"

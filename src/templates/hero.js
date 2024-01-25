@@ -2,30 +2,30 @@ import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const hero = html`
   <div
-    class="font-nunito-sans flex flex-col-reverse bg-[#f5f5f5] md:flex-row md:min-h-64 lg:h-96"
+    class="tw-font-nunito-sans tw-flex tw-flex-col-reverse tw-bg-[#f5f5f5] md:tw-flex-row md:tw-min-h-64 lg:tw-h-96"
   >
     <!-- Text -->
     <div
-      class="flex items-center w-full p-5 md:pr-12 md:pl-10 md:w-1/2 lg:items-start lg:justify-end lg:pt-[88px] lg:pr-12 lg:pb-0 lg:pl-0"
+      class="tw-flex tw-items-center tw-w-full tw-p-5 md:tw-pr-12 md:tw-pl-10 md:tw-w-1/2 lg:tw-items-start lg:tw-justify-end lg:tw-pt-[88px] lg:tw-pr-12 lg:tw-pb-0 lg:tw-pl-0"
     >
-      <h1 class="text-musc-blue w-full md:w-96">
+      <h1 class="tw-text-musc-blue tw-w-full md:tw-w-96">
         <span
-          class="block text-[26px]/[28px] font-black md:text-[32px]/[38px] lg:text-4xl"
+          class="tw-block tw-text-[26px]/[28px] tw-font-black md:tw-text-[32px]/[38px] lg:tw-text-4xl"
         >
           MUSC Health
         </span>
         <span
-          class="block text-3xl md:text-[36px]/[38px] lg:text-[40px]/[44px]"
+          class="tw-block tw-text-3xl md:tw-text-[36px]/[38px] lg:tw-text-[40px]/[44px]"
         >
           Changing What's Possible
         </span>
       </h1>
     </div>
     <!-- Image -->
-    <div class="max-w-[900px] md:w-1/2">
+    <div class="tw-max-w-[900px] md:tw-w-1/2">
       <!-- Hero -->
       <img
-        class="object-cover w-full h-52 md:h-full lg:object-cover"
+        class="tw-object-cover tw-w-full tw-h-52 md:tw-h-full lg:tw-object-cover"
         src="./assets/images/hero-hq.jpg"
         alt="MUSC Health COVID-19 Vaccine Information"
       />

@@ -1,26 +1,30 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const dataIncidentBanner = html`
-  <div id="data-incident-banner" aria-hidden="false" class="font-nunito-sans">
+  <div
+    id="data-incident-banner"
+    aria-hidden="false"
+    class="tw-font-nunito-sans"
+  >
     <div>
-      <div class="w-full flex justify-center bg-[#D1E4FC]">
+      <div class="tw-w-full tw-flex tw-justify-center tw-bg-[#D1E4FC]">
         <div
-          class="items-center text-musc-blue mx-5 py-4 max-w-[1000px] md:flex md:mx-10 md:py-5 md:gap-5 md:justify-center"
+          class="tw-items-center tw-text-musc-blue tw-mx-5 tw-py-4 tw-max-w-[1000px] md:tw-flex md:tw-mx-10 md:tw-py-5 md:tw-gap-5 md:tw-justify-center"
           role="alert"
         >
-          <span class="block leading-4 text-sm grow">
-            <strong class="font-bold">Notice of Data Incident:</strong>
+          <span class="tw-block tw-leading-4 tw-text-sm tw-grow">
+            <strong class="tw-font-bold">Notice of Data Incident:</strong>
             We are providing notice of recent incidents that may affect the
             privacy of some personal and/or medical information collected from
             MUSC Health locations.
           </span>
           <!-- Buttons wrapper -->
           <div
-            class="flex h-11 justify-end items-center w-full mt-4 gap-4 md:mt-0 md:flex-shrink-0 md:w-auto"
+            class="tw-flex tw-h-11 tw-justify-end tw-items-center tw-w-full tw-mt-4 tw-gap-4 md:tw-mt-0 md:tw-flex-shrink-0 md:tw-w-auto"
           >
             <!-- Learn More button -->
             <button
-              class="grow py-2 bg-white border-musc-blue border border-solid rounded-lg text-musc-blue hover:text-white hover:bg-musc-blue transition duration-300 ease-in-out md:grow-0 md:w-auto md:px-6"
+              class="tw-grow tw-py-2 tw-bg-white tw-border-musc-blue tw-border tw-border-solid tw-rounded-lg tw-text-musc-blue hover:tw-text-white hover:tw-bg-musc-blue tw-transition tw-duration-300 tw-ease-in-out md:tw-grow-0 md:tw-w-auto md:tw-px-6"
             >
               <a href="#">
                 <span>Learn More</span>
@@ -29,11 +33,11 @@ export const dataIncidentBanner = html`
             <!-- Dismiss button -->
             <button
               id="dismiss-data-incident-banner"
-              class="p-3 w-auto bg-white border-musc-blue border border-solid rounded-full text-musc-blue"
+              class="tw-p-3 tw-w-auto tw-bg-white tw-border-musc-blue tw-border tw-border-solid tw-rounded-full tw-text-musc-blue"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4"
+                class="tw-h-4 tw-w-4"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

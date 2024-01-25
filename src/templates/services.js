@@ -1,35 +1,39 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const services = html`
-  <div class="font-nunito-sans w-full lg:flex lg:justify-center">
-    <div class="max-w-[1000px] py-10 px-5 md:p-10 lg:py-20 lg:px-0 lg:mx-12">
-      <div class="w-full bg-white flex flex-col">
+  <div class="tw-font-nunito-sans tw-w-full lg:tw-flex lg:tw-justify-center">
+    <div
+      class="tw-max-w-[1000px] tw-py-10 tw-px-5 md:tw-p-10 lg:tw-py-20 lg:tw-px-0 lg:tw-mx-12"
+    >
+      <div class="tw-w-full tw-bg-white tw-flex tw-flex-col">
         <h2
-          class="mb-10 text-[26px]/[28px] md:text-4xl font-bold text-musc-blue md:mb-8"
+          class="tw-mb-10 tw-text-[26px]/[28px] md:tw-text-4xl tw-font-bold tw-text-musc-blue md:tw-mb-8"
         >
           Best-in-class Services
         </h2>
-        <div class="flex w-full md:gap-10 lg:gap-12">
+        <div class="tw-flex tw-w-full md:tw-gap-10 lg:tw-gap-12">
           <!-- Services -->
-          <div class="flex flex-col w-full md:w-1/2">
+          <div class="tw-flex tw-flex-col tw-w-full md:tw-w-1/2">
             <a
               href="#"
-              class="flex justify-between items-center pb-6 border-b border-[#699FBA] border-solid"
+              class="tw-flex tw-justify-between tw-items-center tw-pb-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
             >
               <!-- Service Info -->
-              <div class="flex flex-col text-musc-blue">
+              <div class="tw-flex tw-flex-col tw-text-musc-blue">
                 <h3
-                  class="text-lg font-black text-musc-blue lg:font-extrabold lg:text-2xl"
+                  class="tw-text-lg tw-font-black tw-text-musc-blue lg:tw-font-extrabold lg:tw-text-2xl"
                 >
                   Cancer Care
                 </h3>
-                <p class="text-musc-blue">
+                <p class="tw-text-musc-blue">
                   Hollings ranked High Performing Hospital
                 </p>
-                <p class="text-musc-blue italic">US News & World Report</p>
+                <p class="tw-text-musc-blue tw-italic">
+                  US News & World Report
+                </p>
               </div>
               <!-- Arrow -->
-              <div class="pl-5">
+              <div class="tw-pl-5">
                 <svg
                   width="15"
                   height="26"
@@ -46,22 +50,24 @@ export const services = html`
             </a>
             <a
               href="#"
-              class="flex justify-between items-center py-6 border-b border-[#699FBA] border-solid"
+              class="tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
             >
               <!-- Service Info -->
-              <div class="flex flex-col">
+              <div class="tw-flex tw-flex-col">
                 <h3
-                  class="text-lg font-black text-musc-blue lg:font-extrabold lg:text-2xl"
+                  class="tw-text-lg tw-font-black tw-text-musc-blue lg:tw-font-extrabold lg:tw-text-2xl"
                 >
                   Women's Health
                 </h3>
-                <p class="text-musc-blue">
+                <p class="tw-text-musc-blue">
                   #19 in the Nation Obstetrics & Gynecology
                 </p>
-                <p class="text-musc-blue italic">US News & World Report</p>
+                <p class="tw-text-musc-blue tw-italic">
+                  US News & World Report
+                </p>
               </div>
               <!-- Arrow -->
-              <div class="pl-5">
+              <div class="tw-pl-5">
                 <svg
                   width="15"
                   height="26"
@@ -78,20 +84,22 @@ export const services = html`
             </a>
             <a
               href="#"
-              class="flex justify-between items-center py-6 border-b border-[#699FBA] border-solid"
+              class="tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
             >
               <!-- Service Info -->
-              <div class="flex flex-col">
+              <div class="tw-flex tw-flex-col">
                 <h3
-                  class="text-lg font-black text-musc-blue lg:font-extrabold lg:text-2xl"
+                  class="tw-text-lg tw-font-black tw-text-musc-blue lg:tw-font-extrabold lg:tw-text-2xl"
                 >
                   Ear, Nose & Throat
                 </h3>
-                <p class="text-musc-blue">#23 in the Nation</p>
-                <p class="text-musc-blue italic">US News & World Report</p>
+                <p class="tw-text-musc-blue">#23 in the Nation</p>
+                <p class="tw-text-musc-blue tw-italic">
+                  US News & World Report
+                </p>
               </div>
               <!-- Arrow -->
-              <div class="pl-5">
+              <div class="tw-pl-5">
                 <svg
                   width="15"
                   height="26"
@@ -108,20 +116,22 @@ export const services = html`
             </a>
             <a
               href="#"
-              class="flex justify-between items-center py-6 border-b border-[#699FBA] border-solid"
+              class="tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
             >
               <!-- Service Info -->
-              <div class="flex flex-col">
+              <div class="tw-flex tw-flex-col">
                 <h3
-                  class="text-lg font-black text-musc-blue lg:font-extrabold lg:text-2xl"
+                  class="tw-text-lg tw-font-black tw-text-musc-blue lg:tw-font-extrabold lg:tw-text-2xl"
                 >
                   Children's Health
                 </h3>
-                <p class="text-musc-blue">#9 in the Southeast Region</p>
-                <p class="text-musc-blue italic">US News & World Report</p>
+                <p class="tw-text-musc-blue">#9 in the Southeast Region</p>
+                <p class="tw-text-musc-blue tw-italic">
+                  US News & World Report
+                </p>
               </div>
               <!-- Arrow -->
-              <div class="pl-5">
+              <div class="tw-pl-5">
                 <svg
                   width="15"
                   height="26"
@@ -138,18 +148,20 @@ export const services = html`
             </a>
           </div>
           <!-- Image -->
-          <div class="w-0 md:w-1/2">
+          <div class="tw-w-0 md:tw-w-1/2">
             <img
-              class="object-cover w-full md:h-full md:object-cover md:flex lg:object-cover lg:justify-self-center lg:w-auto lg:h-full"
+              class="tw-object-cover tw-w-full md:tw-h-full md:tw-object-cover md:tw-flex lg:tw-object-cover lg:tw-justify-self-center lg:tw-w-auto lg:tw-h-full"
               src="./assets/images/services-hq.jpg"
               alt="MUSC Health COVID-19 Vaccine Information"
             />
           </div>
         </div>
-        <button class="flex font-arial mt-10 w-full md:w-auto lg:mt-12">
+        <button
+          class="tw-flex tw-font-arial tw-mt-10 tw-w-full md:tw-w-auto lg:tw-mt-12"
+        >
           <a
             href="#"
-            class="hover-arrow flex justify-center overflow-hidden gap-2 grow py-3 px-5 h-full font-bold text-white bg-musc-blue rounded-lg md:grow-0"
+            class="hover-arrow tw-flex tw-justify-center tw-overflow-hidden tw-gap-2 tw-grow tw-py-3 tw-px-5 tw-h-full tw-font-bold tw-text-white tw-bg-musc-blue tw-rounded-lg md:tw-grow-0"
           >
             View all Services
             <svg
@@ -158,7 +170,7 @@ export const services = html`
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="flex-shrink-0 w-0 h-6 transition-all duration-150 ease-in-out"
+              class="tw-flex-shrink-0 tw-w-0 tw-h-6 tw-transition-all tw-duration-150 tw-ease-in-out"
             >
               <path
                 stroke-linecap="round"

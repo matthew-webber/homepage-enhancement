@@ -1,13 +1,13 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const navbar = html`
-  <div class="w-full bg-musc-blue">
+  <div class="tw-w-full tw-bg-musc-blue">
     <div
-      class="flex justify-end items-center max-w-[1000px] mx-auto px-5 py-4 md:px-10 md:py-5 md:gap-5"
+      class="tw-flex tw-justify-end tw-items-center tw-max-w-[1000px] tw-mx-auto tw-px-5 tw-py-4 md:tw-px-10 md:tw-py-5 md:tw-gap-5"
     >
       <!-- Desktop nav links -->
       <div
-        class="hidden gap-10 font-nunito-sans uppercase text-white text-xs lg:flex"
+        class="tw-hidden tw-gap-10 tw-font-nunito-sans tw-uppercase tw-text-white tw-text-xs lg:tw-flex"
       >
         <a href="#">
           <span>Careers</span>
@@ -23,13 +23,13 @@ export const navbar = html`
         </a>
       </div>
       <!-- Mobile menu icon -->
-      <div class="flex lg:hidden">
+      <div class="tw-flex lg:tw-hidden">
         <button
-          class="p-3 w-auto bg-white border-musc-blue border border-solid rounded-full text-musc-blue"
+          class="tw-p-3 tw-w-auto tw-bg-white tw-border-musc-blue tw-border tw-border-solid tw-rounded-full tw-text-musc-blue"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-4 w-4"
+            class="tw-h-4 tw-w-4"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

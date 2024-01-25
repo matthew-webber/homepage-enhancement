@@ -1,36 +1,40 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 
 export const placeholderAdvanceStories = html`
-  <div class="lg:flex lg:justify-center">
-    <div class="max-w-[1000px] w-full px-5 md:px-10 lg:px-0 lg:mx-12">
+  <div class="lg:tw-flex lg:tw-justify-center">
+    <div
+      class="tw-max-w-[1000px] tw-w-full tw-px-5 md:tw-px-10 lg:tw-px-0 lg:tw-mx-12"
+    >
       <!-- Container -->
       <div
-        class="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-10 lg:grid-cols-3"
+        class="tw-grid tw-grid-cols-1 tw-gap-5 md:tw-grid-cols-2 md:tw-gap-10 lg:tw-grid-cols-3"
       >
         <!-- Card -->
         <div
-          class="w-full md:max-w-[312px] items-stretch bg-neutral-100 flex flex-col pb-6"
+          class="tw-w-full md:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
         >
           <div
-            class="items-stretch bg-neutral-300 flex w-full flex-col justify-center"
+            class="tw-items-stretch tw-bg-neutral-300 tw-flex tw-w-full tw-flex-col tw-justify-center"
           >
             <img
               loading="lazy"
               src="https://source.unsplash.com/random/312x175?sig=1"
-              class="aspect-[1.78] object-contain object-center w-full overflow-hidden"
+              class="tw-aspect-[1.78] tw-object-contain tw-object-center tw-w-full tw-overflow-hidden"
             />
           </div>
-          <div class="items-stretch flex w-full flex-col mt-6 px-8">
+          <div
+            class="tw-items-stretch tw-flex tw-w-full tw-flex-col tw-mt-6 tw-px-8"
+          >
             <div
-              class="text-musc-blue text-lg font-bold underline whitespace-nowrap"
+              class="tw-text-musc-blue tw-text-lg tw-font-bold tw-underline tw-whitespace-nowrap"
             >
               Lung Cancer: The Basics
             </div>
-            <div class="text-[#222] text-base whitespace-nowrap">
+            <div class="tw-text-[#222] tw-text-base tw-whitespace-nowrap">
               December 06, 2023
             </div>
             <div
-              class="overflow-hidden text-neutral-800 text-ellipsis text-base mt-5"
+              class="tw-overflow-hidden tw-text-neutral-800 tw-text-ellipsis tw-text-base tw-mt-5"
             >
               Discover crucial insights on lung cancer: risks, symptoms,
               diagnosis and advanced treatments. Trust Dr. Nichole Tanner at
@@ -39,28 +43,30 @@ export const placeholderAdvanceStories = html`
           </div>
         </div>
         <div
-          class="w-full md:max-w-[312px] items-stretch bg-neutral-100 flex flex-col pb-6"
+          class="tw-w-full md:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
         >
           <div
-            class="items-stretch bg-neutral-300 flex w-full flex-col justify-center"
+            class="tw-items-stretch tw-bg-neutral-300 tw-flex tw-w-full tw-flex-col tw-justify-center"
           >
             <img
               loading="lazy"
               src="https://source.unsplash.com/random/312x175?sig=2"
-              class="aspect-[1.78] object-contain object-center w-full overflow-hidden"
+              class="tw-aspect-[1.78] tw-object-contain tw-object-center tw-w-full tw-overflow-hidden"
             />
           </div>
-          <div class="items-stretch flex w-full flex-col mt-6 px-8">
+          <div
+            class="tw-items-stretch tw-flex tw-w-full tw-flex-col tw-mt-6 tw-px-8"
+          >
             <div
-              class="text-musc-blue text-lg font-bold underline whitespace-nowrap"
+              class="tw-text-musc-blue tw-text-lg tw-font-bold tw-underline tw-whitespace-nowrap"
             >
               Heart Disease in Women
             </div>
-            <div class="text-[#222] text-base whitespace-nowrap">
+            <div class="tw-text-[#222] tw-text-base tw-whitespace-nowrap">
               December 06, 2023
             </div>
             <div
-              class="overflow-hidden text-neutral-800 text-ellipsis text-base mt-5"
+              class="tw-overflow-hidden tw-text-neutral-800 tw-text-ellipsis tw-text-base tw-mt-5"
             >
               MUSC Health interventional cardiologist, Arasi Maran, M.D.,
               dispels myths about women heart disease & shares how women can
@@ -69,28 +75,30 @@ export const placeholderAdvanceStories = html`
           </div>
         </div>
         <div
-          class="w-full md:max-w-[312px] items-stretch bg-neutral-100 flex flex-col pb-6"
+          class="tw-w-full md:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
         >
           <div
-            class="items-stretch bg-neutral-300 flex w-full flex-col justify-center"
+            class="tw-items-stretch tw-bg-neutral-300 tw-flex tw-w-full tw-flex-col tw-justify-center"
           >
             <img
               loading="lazy"
               src="https://source.unsplash.com/random/312x175?sig=3"
-              class="aspect-[1.78] object-contain object-center w-full overflow-hidden"
+              class="tw-aspect-[1.78] tw-object-contain tw-object-center tw-w-full tw-overflow-hidden"
             />
           </div>
-          <div class="items-stretch flex w-full flex-col mt-6 px-8">
+          <div
+            class="tw-items-stretch tw-flex tw-w-full tw-flex-col tw-mt-6 tw-px-8"
+          >
             <div
-              class="text-musc-blue text-lg font-bold underline whitespace-nowrap"
+              class="tw-text-musc-blue tw-text-lg tw-font-bold tw-underline tw-whitespace-nowrap"
             >
               Lung Cancer: The Basics
             </div>
-            <div class="text-[#222] text-base whitespace-nowrap">
+            <div class="tw-text-[#222] tw-text-base tw-whitespace-nowrap">
               December 06, 2023
             </div>
             <div
-              class="overflow-hidden text-neutral-800 text-ellipsis text-base mt-5"
+              class="tw-overflow-hidden tw-text-neutral-800 tw-text-ellipsis tw-text-base tw-mt-5"
             >
               Discover crucial insights on lung cancer: risks, symptoms,
               diagnosis and advanced treatments. Trust Dr. Nichole Tanner at
@@ -100,10 +108,10 @@ export const placeholderAdvanceStories = html`
         </div>
       </div>
       <div class="">
-        <div class="flex justify-center mt-10">
+        <div class="tw-flex tw-justify-center tw-mt-10">
           <a
             href="#"
-            class="py-3 grow px-5 font-arial font-bold text-center text-white bg-musc-blue rounded-lg hover:bg-[#699FBA] transition ease-in-out duration-150 hover:shadow-md hover:shadow-musc-blue md:grow-0"
+            class="tw-py-3 tw-grow tw-px-5 tw-font-arial tw-font-bold tw-text-center tw-text-white tw-bg-musc-blue tw-rounded-lg hover:tw-bg-[#699FBA] tw-transition tw-ease-in-out tw-duration-150 hover:tw-shadow-md hover:tw-shadow-musc-blue md:tw-grow-0"
           >
             View all Stories
           </a>
