@@ -39,6 +39,10 @@
         );
         document.body.insertAdjacentElement('afterbegin', dataIncidentBanner);
         dataIncidentBanner.style.display = 'grid';
+        window.scrollTo({
+          top: 0,
+          behavior: 'instant',
+        });
       };
 
       if (document.readyState === 'complete') {

@@ -55,4 +55,40 @@ export const dataIncidentBanner = html`
       </div>
     </div>
   </div>
+  <script>
+    const addDismissListener = () => {
+      const dataIncidentBanner = document.querySelector(
+        '#data-incident-banner'
+      );
+      const dataIncidentBannerDismissButton = document.querySelector(
+        '#dismiss-data-incident-banner'
+      );
+
+      dataIncidentBannerDismissButton.addEventListener('click', () => {
+        dataIncidentBanner.attributes['aria-hidden'].value = 'true';
+      });
+    };
+
+    const showAndMoveToTop = () => {
+      const dataIncidentBanner = document.querySelector(
+        '#data-incident-banner'
+      );
+      document.body.insertAdjacentElement('afterbegin', dataIncidentBanner);
+      dataIncidentBanner.style.display = 'grid';
+      window.scrollTo({
+        top: 0,
+        behavior: 'instant',
+      });
+    };
+
+    if (document.readyState === 'complete') {
+      addDismissListener();
+      showAndMoveToTop();
+    } else {
+      window.addEventListener('load', () => {
+        addDismissListener();
+        showAndMoveToTop();
+      });
+    }
+  </script>
 `;
