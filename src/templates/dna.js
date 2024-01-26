@@ -28,7 +28,7 @@ export const dna = html`
         <button class="tw-flex tw-font-arial tw-w-full tw-mt-5 md:tw-w-auto">
           <a
             href="#"
-            class="hover-arrow tw-flex tw-justify-center tw-overflow-hidden tw-gap-2 tw-grow tw-py-3 tw-px-5 tw-h-full tw-font-bold tw-text-white tw-bg-musc-blue tw-rounded-lg md:tw-grow-0"
+            class="hover-arrow tw-flex tw-border-b-0 tw-justify-center tw-overflow-hidden tw-gap-2 tw-grow tw-py-3 tw-px-5 tw-h-full tw-font-bold tw-text-white tw-bg-musc-blue tw-rounded-lg md:tw-grow-0"
           >
             Learn More
             <svg
