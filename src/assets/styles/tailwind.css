@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.tw-relative {
+  position: relative;
+}
+
 .tw-mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -614,10 +618,6 @@ video {
   height: 13rem;
 }
 
-.tw-h-6 {
-  height: 1.5rem;
-}
-
 .tw-h-64 {
   height: 16rem;
 }
@@ -654,10 +654,6 @@ video {
   max-width: 900px;
 }
 
-.tw-flex-shrink-0 {
-  flex-shrink: 0;
-}
-
 .tw-grow {
   flex-grow: 1;
 }
@@ -665,6 +661,14 @@ video {
 .-tw-scale-x-100 {
   --tw-scale-x: -1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.tw-cursor-auto {
+  cursor: auto;
+}
+
+.tw-cursor-pointer {
+  cursor: pointer;
 }
 
 .tw-grid-cols-1 {
@@ -707,10 +711,6 @@ video {
   gap: 2.5rem;
 }
 
-.tw-gap-2 {
-  gap: 0.5rem;
-}
-
 .tw-gap-4 {
   gap: 1rem;
 }
@@ -749,6 +749,10 @@ video {
 
 .tw-border-b {
   border-bottom-width: 1px;
+}
+
+.tw-border-b-0 {
+  border-bottom-width: 0px;
 }
 
 .tw-border-solid {
@@ -1015,6 +1019,10 @@ video {
   transition-duration: 300ms;
 }
 
+.tw-duration-500 {
+  transition-duration: 500ms;
+}
+
 .tw-ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1036,7 +1044,141 @@ video {
 .hover-arrow:hover {
   svg {
     width: 24px;
+    margin-left: 2px;
+    transition: width 150ms ease-in-out, margin 150ms linear 50ms;
   }
+}
+
+main a {
+  text-decoration: none;
+  border-bottom: 1px dotted #bababa;
+}
+
+.hover-underline {
+  .icon-animation.animation-encircle::after {
+    position: absolute;
+    content: '';
+    border-width: 10px;
+    border-color: red;
+    border-style: hidden;
+    color: red;
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    top: 0px;
+    left: -150px;
+    border-radius: 50%;
+    /* margin-left: 2px; */
+    transition: width 150ms ease-in-out;
+  }
+  &:hover {
+    span.foo {
+      &:nth-child(1)::after {
+        transform: translate(0%, 0%);
+      }
+      &:nth-child(2)::after {
+        transform: translate(100%, 0%);
+      }
+      &:nth-child(3)::after {
+        transform: translate(100%, 100%);
+      }
+      &:nth-child(4)::after {
+        transform: translate(0%, 100%);
+      }
+    }
+  }
+  span.foo {
+    &::after,
+    &::before {
+      position: absolute;
+      z-index: 1000;
+      content: '';
+      border: 20px solid rgb(255, 255, 255, 0);
+      width: 25px;
+      height: 25px;
+      /* opacity: 1; */
+      /* margin-left: 2px; */
+      transition: width 150ms ease-in-out;
+    }
+    &::before {
+      z-index: 1001;
+    }
+    &:nth-child(1) {
+      &::after {
+        top: 0px;
+        background-color: #000;
+        left: -150px;
+        transform: translate(-100%, 0%);
+        transition: all 150ms ease-in-out 25ms;
+      }
+      &::before {
+        top: 0px;
+        background-color: #fff;
+        left: -150px;
+        transform: translate(-100%, 0%);
+        transition: all 150ms ease-in-out 50ms;
+      }
+    }
+    &:nth-child(2) {
+      &::after {
+        background-color: #000;
+        left: -150px;
+        transform: translate(100%, -100%);
+        transition: all 150ms ease-in-out 50ms;
+      }
+      &::before {
+      }
+    }
+    &:nth-child(3) {
+      &::after {
+        background-color: #000;
+        left: -150px;
+        transform: translate(200%, 100%);
+        transition: all 150ms ease-in-out 75ms;
+      }
+      &::before {
+      }
+    }
+    &:nth-child(4) {
+      &::after {
+        background-color: #000;
+        left: -150px;
+        transform: translate(0%, 200%);
+        transition: all 150ms ease-in-out 100ms;
+      }
+      &::before {
+      }
+    }
+  }
+  /* on hover, animate to look like someone is circling something with a pen */
+  /* a soft white glow to the right inside of the box */
+  /* transition: all 150ms ease-in-out 25ms; */
+}
+
+.hover-underline:hover {
+  /* a soft white glow to the right inside of the box */
+  /* box-shadow: inset 29px 0px 43px -22px rgba(255, 255, 255, 0.5); */
+  /* transition: all 150ms ease-in-out 25ms; */
+  /* a span::after {
+    position: absolute;
+    bottom: 2px;
+    left: 10%;
+    width: 0%;
+    content: '';
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.5) 80%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    height: 0;
+    transition: all 350ms ease-in-out 25ms;
+  } */
+  /* a span::after {
+    width: 100%;
+    height: 0.5px;
+  } */
 }
 
 .hover\:tw-bg-\[\#699FBA\]:hover {

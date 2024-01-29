@@ -157,25 +157,25 @@ export const services = html`
           </div>
         </div>
         <button
-          class="tw-flex tw-font-arial tw-mt-10 tw-w-full md:tw-w-auto lg:tw-mt-12"
+          class="tw-flex tw-font-arial tw-mt-10 tw-w-full tw-cursor-auto md:tw-w-auto lg:tw-mt-12"
         >
           <a
             href="#"
-            class="hover-arrow tw-flex tw-border-b-0 tw-justify-center tw-overflow-hidden tw-gap-2 tw-grow tw-py-3 tw-px-5 tw-h-full tw-font-bold tw-text-white tw-bg-musc-blue tw-rounded-lg md:tw-grow-0"
+            class="hover-arrow tw-flex tw-border-b-0 tw-justify-center tw-overflow-hidden tw-grow tw-py-3 tw-px-5 tw-h-full tw-font-bold tw-text-white tw-bg-musc-blue tw-rounded-lg md:tw-grow-0"
           >
             View all Services
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              stroke-width="2.0"
               stroke="currentColor"
-              class="tw-flex-shrink-0 tw-w-0 tw-h-6 tw-transition-all tw-duration-150 tw-ease-in-out"
+              class="tw-w-0 h-6 tw-duration-150"
             >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H9"
               />
             </svg>
           </a>
