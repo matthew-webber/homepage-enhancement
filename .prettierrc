@@ -7,10 +7,15 @@
     "trailingComma": "es5",
     "bracketSpacing": true,
     "arrowParens": "avoid",
-    "htmlWhitespaceSensitivity": "ignore",
     "overrides": [
         {
             "files": "*.html",
+            "options": {
+                "parser": "html"
+            }
+        },
+        {
+            "files": "**/templates/*.js",
             "options": {
                 "parser": "html"
             }

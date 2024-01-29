@@ -544,10 +544,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.tw-relative {
-  position: relative;
-}
-
 .tw-mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -604,6 +600,10 @@ video {
 
 .tw-aspect-\[1\.78\] {
   aspect-ratio: 1.78;
+}
+
+.tw-aspect-square {
+  aspect-ratio: 1 / 1;
 }
 
 .tw-h-11 {
@@ -906,6 +906,10 @@ video {
   text-align: center;
 }
 
+.tw-align-middle {
+  vertical-align: middle;
+}
+
 .tw-font-arial {
   font-family: Arial, sans-serif;
 }
@@ -971,6 +975,14 @@ video {
 
 .tw-leading-5 {
   line-height: 1.25rem;
+}
+
+.tw-leading-normal {
+  line-height: 1.5;
+}
+
+.tw-leading-6 {
+  line-height: 1.5rem;
 }
 
 .tw-text-\[\#222\] {
@@ -1049,136 +1061,43 @@ video {
   }
 }
 
+/* on hover, animate to look like someone is circling something with a pen */
+
+.hover-underline {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    right: 15px;
+    border-radius: 10px;
+    height: 0;
+    background-color: white;
+    transition: height 125ms linear;
+  }
+  &:hover {
+    &::after {
+      height: 3px;
+      transition: height 150ms ease-out 25ms;
+    }
+  }
+}
+
+svg {
+  display: initial;
+  vertical-align: initial;
+}
+
+/*
+**********************
+*****NOT FOR PROD*****
+**********************
+*/
+
 main a {
   text-decoration: none;
   border-bottom: 1px dotted #bababa;
-}
-
-.hover-underline {
-  .icon-animation.animation-encircle::after {
-    position: absolute;
-    content: '';
-    border-width: 10px;
-    border-color: red;
-    border-style: hidden;
-    color: red;
-    width: 80px;
-    height: 80px;
-    opacity: 1;
-    top: 0px;
-    left: -150px;
-    border-radius: 50%;
-    /* margin-left: 2px; */
-    transition: width 150ms ease-in-out;
-  }
-  &:hover {
-    span.foo {
-      &:nth-child(1)::after {
-        transform: translate(0%, 0%);
-      }
-      &:nth-child(2)::after {
-        transform: translate(100%, 0%);
-      }
-      &:nth-child(3)::after {
-        transform: translate(100%, 100%);
-      }
-      &:nth-child(4)::after {
-        transform: translate(0%, 100%);
-      }
-    }
-  }
-  span.foo {
-    &::after,
-    &::before {
-      position: absolute;
-      z-index: 1000;
-      content: '';
-      border: 20px solid rgb(255, 255, 255, 0);
-      width: 25px;
-      height: 25px;
-      /* opacity: 1; */
-      /* margin-left: 2px; */
-      transition: width 150ms ease-in-out;
-    }
-    &::before {
-      z-index: 1001;
-    }
-    &:nth-child(1) {
-      &::after {
-        top: 0px;
-        background-color: #000;
-        left: -150px;
-        transform: translate(-100%, 0%);
-        transition: all 150ms ease-in-out 25ms;
-      }
-      &::before {
-        top: 0px;
-        background-color: #fff;
-        left: -150px;
-        transform: translate(-100%, 0%);
-        transition: all 150ms ease-in-out 50ms;
-      }
-    }
-    &:nth-child(2) {
-      &::after {
-        background-color: #000;
-        left: -150px;
-        transform: translate(100%, -100%);
-        transition: all 150ms ease-in-out 50ms;
-      }
-      &::before {
-      }
-    }
-    &:nth-child(3) {
-      &::after {
-        background-color: #000;
-        left: -150px;
-        transform: translate(200%, 100%);
-        transition: all 150ms ease-in-out 75ms;
-      }
-      &::before {
-      }
-    }
-    &:nth-child(4) {
-      &::after {
-        background-color: #000;
-        left: -150px;
-        transform: translate(0%, 200%);
-        transition: all 150ms ease-in-out 100ms;
-      }
-      &::before {
-      }
-    }
-  }
-  /* on hover, animate to look like someone is circling something with a pen */
-  /* a soft white glow to the right inside of the box */
-  /* transition: all 150ms ease-in-out 25ms; */
-}
-
-.hover-underline:hover {
-  /* a soft white glow to the right inside of the box */
-  /* box-shadow: inset 29px 0px 43px -22px rgba(255, 255, 255, 0.5); */
-  /* transition: all 150ms ease-in-out 25ms; */
-  /* a span::after {
-    position: absolute;
-    bottom: 2px;
-    left: 10%;
-    width: 0%;
-    content: '';
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 0.5) 80%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    height: 0;
-    transition: all 350ms ease-in-out 25ms;
-  } */
-  /* a span::after {
-    width: 100%;
-    height: 0.5px;
-  } */
 }
 
 .hover\:tw-bg-\[\#699FBA\]:hover {
