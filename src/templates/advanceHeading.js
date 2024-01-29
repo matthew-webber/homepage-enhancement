@@ -1,6 +1,6 @@
 import { html } from '../node_modules/lit-html/lit-html.js'; export const
 advanceHeading = html`
-<div class="tw-font-nunito-sans tw-w-full lg:tw-flex lg:tw-justify-center">
+<div class="tw-leading-6 tw-font-nunito-sans tw-w-full lg:tw-flex lg:tw-justify-center">
   <div
     class="tw-max-w-[1000px] tw-py-10 tw-px-5 md:tw-p-10 lg:tw-pt-20 lg:tw-px-0 lg:tw-pb-7 lg:tw-mx-12"
   >

@@ -1,7 +1,7 @@
 import { html } from '../node_modules/lit-html/lit-html.js'; export const
 ctaTiles = html`
 <div
-  class="tw-font-nunito-sans tw-max-w-[1000px] tw-mx-auto lg:-tw-translate-y-20 lg:-tw-mb-20"
+  class="tw-leading-6 tw-font-nunito-sans tw-max-w-[1000px] tw-mx-auto lg:-tw-translate-y-20 lg:-tw-mb-20"
 >
   <div class="tw-flex tw-flex-wrap md:tw-flex-nowrap">
     <!-- Scheduling -->

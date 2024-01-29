@@ -1,6 +1,6 @@
 import { html } from '../node_modules/lit-html/lit-html.js'; export const dna =
 html`
-<div class="tw-font-nunito-sans tw-flex tw-flex-col lg:tw-h-96 lg:tw-flex-row">
+<div class="tw-leading-6 tw-font-nunito-sans tw-flex tw-flex-col lg:tw-h-96 lg:tw-flex-row">
   <!-- NOTE: object flipping horizontally requires reversal of object-position -->
   <img
     class="-tw-scale-x-100 tw-object-left tw-object-cover tw-w-full tw-h-64 md:tw-h-auto md:tw-flex lg:tw-w-1/2"

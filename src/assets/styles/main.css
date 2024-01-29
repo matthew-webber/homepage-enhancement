@@ -54,12 +54,22 @@ svg {
   vertical-align: initial;
 }
 
+body {
+  line-height: 1;
+}
+
+input {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
 /*
 **********************
 *****NOT FOR PROD*****
 **********************
-*/
 main a {
   text-decoration: none;
   border-bottom: 1px dotted #bababa;
 }
+
+*/

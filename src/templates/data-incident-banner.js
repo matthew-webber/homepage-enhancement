@@ -1,6 +1,6 @@
 import { html } from '../node_modules/lit-html/lit-html.js'; export const
 dataIncidentBanner = html`
-<div id="data-incident-banner" aria-hidden="false" class="tw-font-nunito-sans">
+<div id="data-incident-banner" aria-hidden="false" class="tw-leading-6 tw-font-nunito-sans">
   <div>
     <div class="tw-w-full tw-flex tw-justify-center tw-bg-[#D1E4FC]">
       <div
