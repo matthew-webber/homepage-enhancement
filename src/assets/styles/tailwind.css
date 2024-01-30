@@ -1076,6 +1076,56 @@ video {
   }
 }
 
+.hover-service {
+  /* .hover-arrow-tail {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 15%;
+      width: 0;
+      height: 4px;
+      border-radius: 5px;
+      background-color: #00447c;
+      transform: translateY(-50%);
+      transition: width 100ms ease-in-out 50ms;
+    }
+  } */
+  .hover-highlight-bar {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 5px;
+      bottom: 5px;
+      left: -20px;
+      width: 0;
+      /* height: 4px; */
+      /* border-radius: 10px; */
+      background-color: #00447c;
+      transition: width 125ms linear;
+    }
+  }
+  svg {
+    transition: transform 150ms ease-in-out, scale 150ms ease-in-out;
+  }
+  &:hover {
+    /* .hover-arrow-tail::before {
+      width: 50%;
+    } */
+    .hover-highlight-bar::before {
+      width: 3px;
+      transition: width 150ms ease-out 25ms;
+    }
+    svg {
+      transform: translateX(5px);
+      scale: 0.85;
+    }
+  }
+}
+
 svg {
   display: initial;
   vertical-align: initial;

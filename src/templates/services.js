@@ -1,6 +1,8 @@
 import { html } from '../node_modules/lit-html/lit-html.js'; export const
 services = html`
-<div class="tw-leading-6 tw-font-nunito-sans tw-w-full lg:tw-flex lg:tw-justify-center">
+<div
+  class="tw-leading-6 tw-font-nunito-sans tw-w-full lg:tw-flex lg:tw-justify-center"
+>
   <div
     class="tw-max-w-[1000px] tw-py-10 tw-px-5 md:tw-p-10 lg:tw-py-20 lg:tw-px-0 lg:tw-mx-12"
   >
@@ -15,10 +17,12 @@ services = html`
         <div class="tw-flex tw-flex-col tw-w-full md:tw-w-1/2">
           <a
             href="#"
-            class="tw-flex tw-justify-between tw-items-center tw-pb-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
+            class="hover-service tw-flex tw-justify-between tw-items-center tw-pb-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
           >
             <!-- Service Info -->
-            <div class="tw-flex tw-flex-col tw-text-musc-blue">
+            <div
+              class="hover-highlight-bar tw-flex tw-flex-col tw-text-musc-blue"
+            >
               <h3
                 class="tw-text-lg tw-font-black tw-text-musc-blue lg:tw-font-extrabold lg:tw-text-2xl"
               >
@@ -30,7 +34,7 @@ services = html`
               <p class="tw-text-musc-blue tw-italic">US News & World Report</p>
             </div>
             <!-- Arrow -->
-            <div class="tw-pl-5">
+            <div class="hover-arrow-tail tw-pl-5">
               <svg
                 width="15"
                 height="26"
@@ -48,10 +52,10 @@ services = html`
           </a>
           <a
             href="#"
-            class="tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
+            class="hover-service tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
           >
             <!-- Service Info -->
-            <div class="tw-flex tw-flex-col">
+            <div class="hover-highlight-bar tw-flex tw-flex-col">
               <h3
                 class="tw-text-lg tw-font-black tw-text-musc-blue lg:tw-font-extrabold lg:tw-text-2xl"
               >
@@ -63,14 +67,14 @@ services = html`
               <p class="tw-text-musc-blue tw-italic">US News & World Report</p>
             </div>
             <!-- Arrow -->
-            <div class="tw-pl-5">
+            <div class="hover-arrow-tail tw-pl-5">
               <svg
                 width="15"
                 height="26"
                 viewBox="0 0 15 26"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class="tw-block tw-align-middle"
+                class="tw-block tw-align-middle tw-transition-all tw-duration-150"
               >
                 <path
                   d="M15 13L0.937501 25.9904L0.937502 0.00961814L15 13Z"
@@ -81,10 +85,10 @@ services = html`
           </a>
           <a
             href="#"
-            class="tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
+            class="hover-service tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
           >
             <!-- Service Info -->
-            <div class="tw-flex tw-flex-col">
+            <div class="hover-highlight-bar tw-flex tw-flex-col">
               <h3
                 class="tw-text-lg tw-font-black tw-text-musc-blue lg:tw-font-extrabold lg:tw-text-2xl"
               >
@@ -94,7 +98,7 @@ services = html`
               <p class="tw-text-musc-blue tw-italic">US News & World Report</p>
             </div>
             <!-- Arrow -->
-            <div class="tw-pl-5">
+            <div class="hover-arrow-tail tw-pl-5">
               <svg
                 width="15"
                 height="26"
@@ -112,10 +116,10 @@ services = html`
           </a>
           <a
             href="#"
-            class="tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
+            class="hover-service tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
           >
             <!-- Service Info -->
-            <div class="tw-flex tw-flex-col">
+            <div class="hover-highlight-bar tw-flex tw-flex-col">
               <h3
                 class="tw-text-lg tw-font-black tw-text-musc-blue lg:tw-font-extrabold lg:tw-text-2xl"
               >
@@ -125,7 +129,7 @@ services = html`
               <p class="tw-text-musc-blue tw-italic">US News & World Report</p>
             </div>
             <!-- Arrow -->
-            <div class="tw-pl-5">
+            <div class="hover-arrow-tail tw-pl-5">
               <svg
                 width="15"
                 height="26"
