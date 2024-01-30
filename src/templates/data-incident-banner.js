@@ -21,7 +21,7 @@ dataIncidentBanner = html`
           <button
             class="tw-grow tw-py-2 tw-text-base tw-bg-white tw-border-musc-blue tw-border tw-border-solid tw-rounded-lg tw-text-musc-blue hover:tw-text-white hover:tw-bg-musc-blue tw-transition tw-duration-300 tw-ease-in-out md:tw-grow-0 md:tw-w-auto md:tw-px-6"
           >
-            <a href="#">
+            <a href="https://muschealth.org/data-incident">
               <span>Learn More</span>
             </a>
           </button>

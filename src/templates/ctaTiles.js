@@ -7,7 +7,7 @@ ctaTiles = html`
     <!-- Scheduling -->
     <a
       class="hover-underline tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-musc-blue tw-text-white tw-fill-white lg:tw-gap-5"
-      href="#"
+      href="https://muschealth.org/patients-visitors/appointments"
     >
       <div class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]">
         <svg
@@ -83,7 +83,7 @@ ctaTiles = html`
     <!-- Find a Doctor -->
     <a
       class="hover-underline tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-[#3B90AD] tw-text-white tw-fill-white lg:tw-gap-5"
-      href="#"
+      href="https://answers.muschealth.org/provider.html"
     >
       <div class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]">
         <svg
@@ -135,7 +135,7 @@ ctaTiles = html`
     <!-- Find a Location -->
     <a
       class="hover-underline tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-[#6E6574] tw-text-white tw-fill-white lg:tw-gap-5"
-      href="#"
+      href="https://muschealth.org/locations"
     >
       <!-- Location Pin -->
       <div class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]">
@@ -187,7 +187,7 @@ ctaTiles = html`
     <!-- Get Care Now -->
     <a
       class="hover-underline tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-[#759340] tw-text-white tw-fill-white lg:tw-gap-5"
-      href="#"
+      href="https://muschealth.org/telehealth-services"
     >
       <!-- Heart -->
       <div class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]">

@@ -10,13 +10,13 @@ services = html`
       <h2
         class="tw-mb-10 tw-text-[26px]/[28px] md:tw-text-4xl tw-font-bold tw-text-musc-blue md:tw-mb-8"
       >
-        Best-in-class Services
+        Best-in-Class Services
       </h2>
       <div class="tw-flex tw-w-full md:tw-gap-10 lg:tw-gap-12">
         <!-- Services -->
         <div class="tw-flex tw-flex-col tw-w-full md:tw-w-1/2">
           <a
-            href="#"
+            href="https://hollingscancercenter.musc.edu/patient-care"
             class="hover-service tw-flex tw-justify-between tw-items-center tw-pb-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
           >
             <!-- Service Info -->
@@ -29,7 +29,7 @@ services = html`
                 Cancer Care
               </h3>
               <p class="tw-text-musc-blue">
-                Hollings ranked High Performing Hospital
+                Hollings ranked high performing hospital
               </p>
               <p class="tw-text-musc-blue tw-italic">US News & World Report</p>
             </div>
@@ -51,7 +51,7 @@ services = html`
             </div>
           </a>
           <a
-            href="#"
+            href="https://muschealth.org/medical-services/womens"
             class="hover-service tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
           >
             <!-- Service Info -->
@@ -59,10 +59,10 @@ services = html`
               <h3
                 class="tw-text-lg tw-font-black tw-text-musc-blue lg:tw-font-extrabold lg:tw-text-2xl"
               >
-                Women's Health
+                Women&rsquo;s Health
               </h3>
               <p class="tw-text-musc-blue">
-                #19 in the Nation Obstetrics & Gynecology
+                #19 in the nation for obstetrics & gynecology
               </p>
               <p class="tw-text-musc-blue tw-italic">US News & World Report</p>
             </div>
@@ -84,7 +84,7 @@ services = html`
             </div>
           </a>
           <a
-            href="#"
+            href="https://muschealth.org/medical-services/ent"
             class="hover-service tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
           >
             <!-- Service Info -->
@@ -94,7 +94,7 @@ services = html`
               >
                 Ear, Nose & Throat
               </h3>
-              <p class="tw-text-musc-blue">#23 in the Nation</p>
+              <p class="tw-text-musc-blue">#23 in the nation</p>
               <p class="tw-text-musc-blue tw-italic">US News & World Report</p>
             </div>
             <!-- Arrow -->
@@ -115,7 +115,7 @@ services = html`
             </div>
           </a>
           <a
-            href="#"
+            href="https://musckids.org"
             class="hover-service tw-flex tw-justify-between tw-items-center tw-py-6 tw-border-b tw-border-[#699FBA] tw-border-solid"
           >
             <!-- Service Info -->
@@ -123,9 +123,9 @@ services = html`
               <h3
                 class="tw-text-lg tw-font-black tw-text-musc-blue lg:tw-font-extrabold lg:tw-text-2xl"
               >
-                Children's Health
+                Children&rsquo;s Health
               </h3>
-              <p class="tw-text-musc-blue">#9 in the Southeast Region</p>
+              <p class="tw-text-musc-blue">#9 in the southeast Region</p>
               <p class="tw-text-musc-blue tw-italic">US News & World Report</p>
             </div>
             <!-- Arrow -->
@@ -159,10 +159,10 @@ services = html`
         class="tw-flex tw-font-arial tw-text-base tw-mt-10 tw-w-full tw-cursor-auto md:tw-w-auto lg:tw-mt-12"
       >
         <a
-          href="#"
+          href="https://muschealth.org/medical-services"
           class="hover-arrow tw-flex tw-border-b-0 tw-justify-center tw-overflow-hidden tw-grow tw-py-3 tw-px-5 tw-h-full tw-font-bold tw-text-white tw-bg-musc-blue tw-rounded-lg md:tw-grow-0"
         >
-          View all Services
+          View All Services
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

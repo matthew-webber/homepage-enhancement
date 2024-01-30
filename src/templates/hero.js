@@ -16,7 +16,7 @@ html`
       <span
         class="tw-block tw-text-3xl md:tw-text-[36px]/[38px] lg:tw-text-[40px]/[44px]"
       >
-        Changing What's Possible
+        Changing What&rsquo;s Possible
       </span>
     </h1>
   </div>

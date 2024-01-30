@@ -26,7 +26,7 @@ html`
         class="tw-flex tw-text-base tw-font-arial tw-w-full tw-mt-5 tw-cursor-auto md:tw-w-auto"
       >
         <a
-          href="#"
+          href="https://web.musc.edu/inourdnasc"
           class="hover-arrow tw-flex tw-border-b-0 tw-justify-center tw-overflow-hidden tw-grow tw-py-3 tw-px-5 tw-h-full tw-font-bold tw-text-white tw-bg-musc-blue tw-rounded-lg md:tw-grow-0"
         >
           Learn More
