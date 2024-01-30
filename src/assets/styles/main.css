@@ -61,6 +61,11 @@ body {
 input {
   font-family: Arial, sans-serif;
   font-size: 16px;
+  color: rgb(82, 82, 82);
+}
+
+* {
+  font-size: 1rem;
 }
 
 /*
@@ -72,4 +77,11 @@ main a {
   border-bottom: 1px dotted #bababa;
 }
 
+*/
+
+/* NOTE
+
+REMOVE STYLES
+  - INPUT ::PLACEHOLDER
+  - HTML, HOST FONT-FAMILY
 */
