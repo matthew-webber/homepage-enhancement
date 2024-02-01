@@ -26,26 +26,26 @@ placeholderAdvanceStories = html`
         <div
           class="tw-items-stretch tw-flex tw-w-full tw-flex-col tw-mt-6 tw-px-5 md:tw-px-8"
         >
-          <div
+          <p
             class="tw-text-musc-blue tw-text-lg tw-font-bold tw-underline tw-whitespace-nowrap"
           >
             Lung Cancer: The Basics
-          </div>
-          <div class="tw-text-[#222] tw-text-base tw-whitespace-nowrap">
+          </p>
+          <p class="tw-text-[#222] tw-text-base tw-whitespace-nowrap">
             December 06, 2023
-          </div>
-          <div
-            class="tw-overflow-hidden tw-text-neutral-800 tw-text-ellipsis tw-text-base tw-mt-5"
+          </p>
+          <p
+            class="tw-line-clamp-3 tw-text-neutral-800 tw-text-ellipsis tw-text-base tw-mt-5"
           >
             Discover crucial insights on lung cancer: risks, symptoms, diagnosis
             and advanced treatments. Trust Dr. Nichole Tanner at MUSC Health for
             expert care.
-          </div>
+          </p>
         </div>
       </div>
       <!-- Card -->
       <div
-        class="tw-w-full md:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
+        class="tw-w-full lg:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
       >
         <div
           class="tw-items-stretch tw-bg-neutral-300 tw-flex tw-w-full tw-flex-col tw-justify-center"
@@ -59,26 +59,26 @@ placeholderAdvanceStories = html`
         <div
           class="tw-items-stretch tw-flex tw-w-full tw-flex-col tw-mt-6 tw-px-8"
         >
-          <div
+          <p
             class="tw-text-musc-blue tw-text-lg tw-font-bold tw-underline tw-whitespace-nowrap"
           >
             Heart Disease in Women
-          </div>
-          <div class="tw-text-[#222] tw-text-base tw-whitespace-nowrap">
+          </p>
+          <p class="tw-text-[#222] tw-text-base tw-whitespace-nowrap">
             December 06, 2023
-          </div>
-          <div
-            class="tw-overflow-hidden tw-text-neutral-800 tw-text-ellipsis tw-text-base tw-mt-5"
+          </p>
+          <p
+            class="tw-line-clamp-3 tw-text-neutral-800 tw-text-ellipsis tw-text-base tw-mt-5"
           >
             MUSC Health interventional cardiologist, Arasi Maran, M.D., dispels
             myths about women heart disease & shares how women can take charge
             of their heart health.
-          </div>
+          </p>
         </div>
       </div>
       <!-- Card -->
       <div
-        class="tw-w-full md:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
+        class="tw-w-full lg:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
       >
         <div
           class="tw-items-stretch tw-bg-neutral-300 tw-flex tw-w-full tw-flex-col tw-justify-center"
@@ -92,21 +92,21 @@ placeholderAdvanceStories = html`
         <div
           class="tw-items-stretch tw-flex tw-w-full tw-flex-col tw-mt-6 tw-px-8"
         >
-          <div
+          <p
             class="tw-text-musc-blue tw-text-lg tw-font-bold tw-underline tw-whitespace-nowrap"
           >
             Lung Cancer: The Basics
-          </div>
-          <div class="tw-text-[#222] tw-text-base tw-whitespace-nowrap">
+          </p>
+          <p class="tw-text-[#222] tw-text-base tw-whitespace-nowrap">
             December 06, 2023
-          </div>
-          <div
-            class="tw-overflow-hidden tw-text-neutral-800 tw-text-ellipsis tw-text-base tw-mt-5"
+          </p>
+          <p
+            class="tw-line-clamp-3 tw-text-neutral-800 tw-text-base tw-mt-5"
           >
             Discover crucial insights on lung cancer: risks, symptoms, diagnosis
             and advanced treatments. Trust Dr. Nichole Tanner at MUSC Health for
             expert care.
-          </div>
+          </p>
         </div>
       </div>
     </div>
