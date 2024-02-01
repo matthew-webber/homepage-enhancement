@@ -26,7 +26,7 @@ html`
     <img
       class="tw-object-cover tw-w-full tw-h-52 md:tw-h-full lg:tw-object-cover"
       src="/-/media/7F58B5164E9145D6B37009F3AF52ED8A.ashx"
-      alt="MUSC Health COVID-19 Vaccine Information"
+      alt=""
     />
   </div>
 </div>

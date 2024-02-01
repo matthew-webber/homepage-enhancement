@@ -1,6 +1,10 @@
 import { html } from '../node_modules/lit-html/lit-html.js'; export const
 dataIncidentBanner = html`
-<div id="data-incident-banner" aria-hidden="false" class="tw-leading-6 tw-font-nunito-sans">
+<div
+  id="data-incident-banner"
+  aria-hidden="false"
+  class="tw-leading-6 tw-font-nunito-sans"
+>
   <div>
     <div class="tw-w-full tw-flex tw-justify-center tw-bg-[#D1E4FC]">
       <div
@@ -19,6 +23,7 @@ dataIncidentBanner = html`
         >
           <!-- Learn More button -->
           <button
+            alt="Learn more about the data incident"
             class="tw-grow tw-py-2 tw-text-base tw-bg-white tw-border-musc-blue tw-border tw-border-solid tw-rounded-lg tw-text-musc-blue hover:tw-text-white hover:tw-bg-musc-blue tw-transition tw-duration-300 tw-ease-in-out md:tw-grow-0 md:tw-w-auto md:tw-px-6"
           >
             <a href="https://muschealth.org/data-incident">
@@ -27,10 +32,12 @@ dataIncidentBanner = html`
           </button>
           <!-- Dismiss button -->
           <button
+            aria-label="close"
             id="dismiss-data-incident-banner"
             class="tw-flex tw-p-3 tw-bg-white tw-border-musc-blue tw-border tw-border-solid tw-rounded-full tw-text-musc-blue"
           >
             <svg
+              alt=""
               xmlns="http://www.w3.org/2000/svg"
               class="tw-h-4 tw-w-4 tw-aspect-square"
               fill="none"

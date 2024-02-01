@@ -10,7 +10,7 @@ advanceHeading = html`
       <h3
         class="tw-text-[26px]/[28px] tw-mb-2 tw-font-bold tw-text-musc-blue md:tw-text-4xl lg:tw-text-[40px]/[44px]"
       >
-        Advance with MUSC Health
+        Advance With MUSC Health
       </h3>
       <p class="tw-text-[#222]">
         Advance With MUSC Health stories and podcasts provide information

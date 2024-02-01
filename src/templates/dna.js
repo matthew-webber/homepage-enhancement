@@ -1,11 +1,13 @@
 import { html } from '../node_modules/lit-html/lit-html.js'; export const dna =
 html`
-<div class="tw-leading-6 tw-font-nunito-sans tw-flex tw-flex-col lg:tw-h-96 lg:tw-flex-row">
+<div
+  class="tw-leading-6 tw-font-nunito-sans tw-flex tw-flex-col lg:tw-h-96 lg:tw-flex-row"
+>
   <!-- NOTE: object flipping horizontally requires reversal of object-position -->
   <img
     class="-tw-scale-x-100 tw-object-left tw-object-cover tw-w-full tw-h-64 md:tw-h-auto md:tw-flex lg:tw-w-1/2"
     src="/-/media/6B07C93D0568411CBDD50275671C9FEF.ashx"
-    alt="MUSC Health COVID-19 Vaccine Information"
+    alt=""
   />
   <div class="tw-bg-[#f5f5f5] lg:tw-w-1/2">
     <div
@@ -23,6 +25,7 @@ html`
         discoveries for our community.
       </p>
       <button
+        alt="Learn more about In Our DNA SC"
         class="tw-flex tw-text-base tw-font-arial tw-w-full tw-mt-5 tw-cursor-auto md:tw-w-auto"
       >
         <a
@@ -31,6 +34,7 @@ html`
         >
           Learn More
           <svg
+            alt=""
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"

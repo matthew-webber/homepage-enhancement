@@ -11,6 +11,7 @@ ctaTiles = html`
     >
       <div class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]">
         <svg
+          alt=""
           width="43"
           height="42"
           viewBox="0 0 43 42"
@@ -55,16 +56,15 @@ ctaTiles = html`
           <span>Looking to schedule?</span>
         </p>
       </div>
-      <div
+      <p
         class="tw-flex tw-flex-col tw-gap-[10px] tw-text-lg tw-leading-5 tw-border-b-0 lg:tw-flex-row lg:tw-items-center lg:tw-justify-between"
       >
-        <p
-          class="tw-transition-all tw-duration-500 tw-block tw-font-black lg:tw-font-extrabold tw-border-solid tw-border-white"
-        >
-          <span>Schedule an</span>
-          <span>Appointment</span>
-        </p>
+        <span class="tw-block tw-font-black">
+          Schedule an
+          <span class="tw-block">Appointment</span>
+        </span>
         <svg
+          alt=""
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
@@ -78,15 +78,16 @@ ctaTiles = html`
             d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
           />
         </svg>
-      </div>
+      </p>
     </a>
     <!-- Find a Doctor -->
     <a
-      class="hover-underline tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-[#3B90AD] tw-text-white tw-fill-white lg:tw-gap-5"
+      class="hover-underline tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-[#347F98] tw-text-white tw-fill-white lg:tw-gap-5"
       href="https://answers.muschealth.org/provider.html"
     >
       <div class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]">
         <svg
+          alt=""
           width="35"
           height="44"
           viewBox="0 0 35 44"
@@ -117,6 +118,7 @@ ctaTiles = html`
           <span class="tw-block">Doctor</span>
         </span>
         <svg
+          alt=""
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
@@ -140,6 +142,7 @@ ctaTiles = html`
       <!-- Location Pin -->
       <div class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]">
         <svg
+          alt=""
           width="53"
           height="44"
           viewBox="0 0 53 44"
@@ -169,6 +172,7 @@ ctaTiles = html`
           <span class="tw-block">Location</span>
         </span>
         <svg
+          alt=""
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
@@ -186,12 +190,13 @@ ctaTiles = html`
     </a>
     <!-- Get Care Now -->
     <a
-      class="hover-underline tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-[#759340] tw-text-white tw-fill-white lg:tw-gap-5"
+      class="hover-underline tw-flex tw-flex-col tw-justify-between tw-gap-[10px] tw-w-1/2 tw-p-5 tw-bg-[#617C36] tw-text-white tw-fill-white lg:tw-gap-5"
       href="https://muschealth.org/telehealth-services"
     >
       <!-- Heart -->
       <div class="tw-grow tw-flex tw-flex-col tw-justify-between tw-gap-[10px]">
         <svg
+          alt=""
           width="53"
           height="44"
           viewBox="0 0 53 44"
@@ -222,6 +227,7 @@ ctaTiles = html`
           <span class="tw-block">Now</span>
         </span>
         <svg
+          alt=""
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"

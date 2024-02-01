@@ -27,6 +27,7 @@ import { html } from '../node_modules/lit-html/lit-html.js'; export const navbar
         class="tw-p-3 tw-w-auto tw-bg-white tw-border-musc-blue tw-border tw-border-solid tw-rounded-full tw-text-musc-blue"
       >
         <svg
+          alt=""
           xmlns="http://www.w3.org/2000/svg"
           class="tw-h-4 tw-w-4"
           fill="none"
