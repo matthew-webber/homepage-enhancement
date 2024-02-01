@@ -11,8 +11,9 @@ placeholderAdvanceStories = html`
       class="tw-grid tw-grid-cols-1 tw-gap-5 md:tw-grid-cols-2 md:tw-gap-10 lg:tw-grid-cols-3"
     >
       <!-- Card -->
-      <div
-        class="tw-w-full lg:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
+      <a
+        class="hover-card-highlight tw-w-full tw-relative lg:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
+        href="#"
       >
         <div
           class="tw-items-stretch tw-bg-neutral-300 tw-flex tw-w-full tw-flex-col tw-justify-center"
@@ -42,10 +43,11 @@ placeholderAdvanceStories = html`
             expert care.
           </p>
         </div>
-      </div>
+      </a>
       <!-- Card -->
-      <div
-        class="tw-w-full lg:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
+      <a
+        class="hover-card-highlight tw-w-full lg:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
+        href="#"
       >
         <div
           class="tw-items-stretch tw-bg-neutral-300 tw-flex tw-w-full tw-flex-col tw-justify-center"
@@ -75,10 +77,11 @@ placeholderAdvanceStories = html`
             of their heart health.
           </p>
         </div>
-      </div>
+      </a>
       <!-- Card -->
-      <div
-        class="tw-w-full lg:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
+      <a
+        class="hover-card-highlight tw-w-full lg:tw-max-w-[312px] tw-items-stretch tw-bg-neutral-100 tw-flex tw-flex-col tw-pb-6"
+        href="#"
       >
         <div
           class="tw-items-stretch tw-bg-neutral-300 tw-flex tw-w-full tw-flex-col tw-justify-center"
@@ -100,25 +103,39 @@ placeholderAdvanceStories = html`
           <p class="tw-text-[#222] tw-text-base tw-whitespace-nowrap">
             December 06, 2023
           </p>
-          <p
-            class="tw-line-clamp-3 tw-text-neutral-800 tw-text-base tw-mt-5"
-          >
+          <p class="tw-line-clamp-3 tw-text-neutral-800 tw-text-base tw-mt-5">
             Discover crucial insights on lung cancer: risks, symptoms, diagnosis
             and advanced treatments. Trust Dr. Nichole Tanner at MUSC Health for
             expert care.
           </p>
         </div>
-      </div>
+      </a>
     </div>
-    <div class="">
-      <div class="tw-flex tw-justify-center tw-mt-10">
+    <div class="tw-flex tw-justify-center tw-mt-10">
+      <button
+        class="tw-flex tw-text-base tw-font-arial tw-w-full tw-mt-5 tw-cursor-auto md:tw-w-auto"
+      >
         <a
-          href="#"
-          class="tw-py-3 tw-grow tw-px-5 tw-font-arial tw-font-bold tw-text-center tw-text-white tw-bg-musc-blue tw-rounded-lg hover:tw-bg-[#699FBA] tw-transition tw-ease-in-out tw-duration-150 hover:tw-shadow-md hover:tw-shadow-musc-blue md:tw-grow-0"
+          href="https://web.musc.edu/inourdnasc"
+          class="hover-arrow tw-flex tw-border-b-0 tw-justify-center tw-overflow-hidden tw-grow tw-py-3 tw-px-5 tw-h-full tw-font-bold tw-text-white tw-bg-musc-blue tw-rounded-lg md:tw-grow-0"
         >
           View all Stories
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2.0"
+            stroke="currentColor"
+            class="tw-block tw-align-middle tw-w-0 h-6 tw-duration-150"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H9"
+            />
+          </svg>
         </a>
-      </div>
+      </button>
     </div>
   </div>
 </div>

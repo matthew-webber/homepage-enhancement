@@ -26,6 +26,37 @@
 }
 
 /*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
+}
+
+/*
 1. Remove the margin in all browsers.
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
@@ -341,6 +372,26 @@ textarea {
 }
 
 /*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+/*
 Set the default cursor for buttons.
 */
 
@@ -493,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.tw-relative {
+  position: relative;
+}
+
 .tw-mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -531,6 +586,13 @@ video {
   margin-top: 1.5rem;
 }
 
+.tw-line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
 .tw-block {
   display: block;
 }
@@ -547,12 +609,12 @@ video {
   display: none;
 }
 
-.tw-aspect-\[1\.78\] {
-  aspect-ratio: 1.78;
-}
-
 .tw-aspect-square {
   aspect-ratio: 1 / 1;
+}
+
+.tw-aspect-video {
+  aspect-ratio: 16 / 9;
 }
 
 .tw-h-11 {
@@ -563,12 +625,20 @@ video {
   height: 1rem;
 }
 
+.tw-h-44 {
+  height: 11rem;
+}
+
 .tw-h-52 {
   height: 13rem;
 }
 
 .tw-h-64 {
   height: 16rem;
+}
+
+.tw-h-96 {
+  height: 24rem;
 }
 
 .tw-h-full {
@@ -772,11 +842,6 @@ video {
   fill: #fff;
 }
 
-.tw-object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .tw-object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -845,10 +910,6 @@ video {
 
 .tw-pl-5 {
   padding-left: 1.25rem;
-}
-
-.tw-text-center {
-  text-align: center;
 }
 
 .tw-align-middle {
@@ -1075,6 +1136,25 @@ video {
   }
 }
 
+.hover-card-highlight {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 0;
+    background-color: #00447c;
+    transition: height 125ms linear;
+  }
+  &:hover {
+    &::before {
+      height: 3px;
+      transition: height 150ms ease-out 25ms;
+    }
+  }
+}
+
 svg {
   display: initial;
   vertical-align: initial;
@@ -1112,11 +1192,6 @@ REMOVE STYLES
   - HTML, HOST FONT-FAMILY
 */
 
-.hover\:tw-bg-\[\#699FBA\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(105 159 186 / var(--tw-bg-opacity));
-}
-
 .hover\:tw-bg-musc-blue:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 68 124 / var(--tw-bg-opacity));
@@ -1125,17 +1200,6 @@ REMOVE STYLES
 .hover\:tw-text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:tw-shadow-md:hover {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:tw-shadow-musc-blue:hover {
-  --tw-shadow-color: #00447c;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 @media (min-width: 676px) {
@@ -1178,10 +1242,6 @@ REMOVE STYLES
 
   .md\:tw-w-auto {
     width: auto;
-  }
-
-  .md\:tw-max-w-\[312px\] {
-    max-width: 312px;
   }
 
   .md\:tw-flex-shrink-0 {
@@ -1233,6 +1293,11 @@ REMOVE STYLES
   .md\:tw-px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .md\:tw-px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .md\:tw-py-5 {
@@ -1304,6 +1369,10 @@ REMOVE STYLES
 
   .lg\:tw-w-auto {
     width: auto;
+  }
+
+  .lg\:tw-max-w-\[312px\] {
+    max-width: 312px;
   }
 
   .lg\:-tw-translate-y-20 {
