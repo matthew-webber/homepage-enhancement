@@ -24,7 +24,7 @@ blogPreview = html`
           class="tw-flex tw-w-full tw-flex-col tw-mt-6 tw-px-5 md:tw-px-[30px]"
         >
           <p class="tw-text-musc-blue tw-text-lg tw-font-bold tw-underline">
-            Improving Brain Health
+            Gallbladder Surgery
           </p>
           <p class="tw-text-[#33566C] tw-text-base">January 25, 2024</p>
           <p class="tw-line-clamp-3 tw-text-[#222] tw-text-base tw-mt-5">
