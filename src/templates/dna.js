@@ -25,6 +25,7 @@ html`
         discoveries for our community.
       </p>
       <button
+        tabindex="-1"
         alt="Learn more about In Our DNA SC"
         class="tw-flex tw-text-base tw-font-arial tw-w-full tw-mt-5 tw-cursor-auto md:tw-w-auto"
       >

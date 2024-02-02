@@ -1,5 +1,5 @@
 import { html } from '../node_modules/lit-html/lit-html.js'; export const
-advanceHeading = html`
+blogHeading = html`
 <div
   class="tw-leading-6 tw-font-nunito-sans tw-w-full lg:tw-flex lg:tw-justify-center"
 >

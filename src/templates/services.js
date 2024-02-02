@@ -157,6 +157,7 @@ services = html`
       />
     </div>
     <button
+      tabindex="-1"
       class="tw-flex tw-font-arial tw-text-base tw-mt-10 tw-w-full tw-cursor-auto md:tw-w-auto lg:tw-mt-12"
     >
       <a
