@@ -1155,7 +1155,7 @@ main a {
 
 REMOVE STYLES
   - INPUT ::PLACEHOLDER
-  - HTML, HOST FONT-FAMILY
+  - HTML, HOST FONT-FAMILY (see: 1. Use a consistent sensible line-height in all browsers.)
 */
 
 .hover\:tw-bg-musc-blue:hover {

@@ -25,9 +25,9 @@ html`
     <!-- Hero -->
     <img
       class="tw-object-cover tw-w-full tw-h-52 md:tw-h-full lg:tw-object-cover"
-      src="/-/media/7F58B5164E9145D6B37009F3AF52ED8A.ashx"
+      src="./assets/images/hero-hq.jpg"
       alt=""
     />
   </div>
 </div>
-`;
+`; // src="/-/media/7F58B5164E9145D6B37009F3AF52ED8A.ashx"

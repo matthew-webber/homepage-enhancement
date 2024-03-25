@@ -6,7 +6,7 @@ html`
   <!-- NOTE: object flipping horizontally requires reversal of object-position -->
   <img
     class="-tw-scale-x-100 tw-object-left tw-object-cover tw-w-full tw-h-64 md:tw-h-auto md:tw-flex lg:tw-w-1/2"
-    src="/-/media/6B07C93D0568411CBDD50275671C9FEF.ashx"
+    src="./assets/images/dna-hq.jpg"
     alt=""
   />
   <div class="tw-bg-[#f5f5f5] lg:tw-w-1/2">
@@ -54,4 +54,4 @@ html`
     </div>
   </div>
 </div>
-`;
+`; // src="/-/media/6B07C93D0568411CBDD50275671C9FEF.ashx"

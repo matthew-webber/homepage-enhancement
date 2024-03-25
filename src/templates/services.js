@@ -152,7 +152,7 @@ services = html`
       <!-- Image -->
       <img
         class="tw-aspect-square tw-w-0 md:tw-object-cover md:tw-w-1/2"
-        src="/-/media/5C54627F7F0F401CAEC846A99A10A3A0.ashx"
+        src="./assets/images/services-hq.jpg"
         alt=""
       />
     </div>
@@ -184,4 +184,4 @@ services = html`
     </button>
   </div>
 </div>
-`;
+`; // src="/-/media/5C54627F7F0F401CAEC846A99A10A3A0.ashx"
